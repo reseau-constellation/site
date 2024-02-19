@@ -1,5 +1,11 @@
 name: Appli internet
-on: [ workflow_call ]
+on: 
+  push:
+    branches:
+      - main
+      - 'renovate/**'
+    tags:
+      - v*
 
 concurrency:
   group: déployer-${{ github.ref }}
