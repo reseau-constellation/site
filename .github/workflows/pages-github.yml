@@ -1,0 +1,33 @@
+name: Appli internet
+on: [ workflow_call ]
+
+concurrency:
+  group: déployer-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  publier_appli_internet:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v2
+        with:
+          version: latest
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'pnpm'
+
+      - run: pnpm install
+      - run: pnpm build
+
+      - name: Déployer
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref_name == 'main' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist
+          cname: xn--rseau-constellation-bzb.ca
