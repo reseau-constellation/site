@@ -5,9 +5,9 @@
         <v-img  height="300" src="@/assets/logo.svg" />
       </v-col>
       <v-col :cols="mdAndUp ? 8 : 12" :class="{'my-auto': true, 'd-flex': true, 'text-center': !mdAndUp}">
-        <div>
-          <h1 class="text-h1 font-weight-bold">Constellation</h1>
-          <div class="text-h4 font-weight-light mb-n1">Le réseau distribué pour les données scientifiques</div>
+        <div style="width:100%">
+          <h1 :class="{'text-h1': mdAndUp, 'text-h2': !mdAndUp, 'font-weight-bold': true}">Constellation</h1>
+          <div :class="{'text-h4': mdAndUp, 'text-h5': !mdAndUp, 'font-weight-light': true, 'mb-n1': true}">Le réseau distribué pour les données scientifiques</div>
         </div>
       </v-col>
       
@@ -43,13 +43,14 @@
       </v-col>
 
       <v-col cols="auto">
-        <v-card width="300" height="330" class="text-center"  @click="async ()=>ouvrirLien(await lienTéléchargement())">
+        <v-card width="300" height="330" class="text-center" @click="async ()=>ouvrirLien(await lienTéléchargement())">
           <v-card-item class="mt-4">
             <v-card-title class="text-h5 font-weight-bold">Installer Constellation</v-card-title>
           </v-card-item>
           <v-card-text>
             <v-img class="my-6" height="100" :src="imgInstaller" />
             Pour plus de fonctionnalités et d'indépendance.
+
           </v-card-text>
         </v-card>
       </v-col>
@@ -151,12 +152,14 @@ import imgScienceCitoyenne from "@/assets/undraw/undraw_fall_is_coming_yl-0-x.sv
 import imgDocu from "@/assets/undraw/undraw_book_lover_re_rwjy.svg"
 import imgAppliEnLigne from "@/assets/undraw/undraw_browsing_re_eycn.svg"
 import imgInstaller from "@/assets/undraw/undraw_data_processing_yrrv.svg"
-import {lienTéléchargement} from "@/utils/téléchargements";
+import {lienTéléchargement, surOrdi} from "@/utils/téléchargements";
 
 const { mdAndUp } = useDisplay();
 
 const ouvrirLien = (lien: string) => {
   window.open(lien)
 }
+
+
 
 </script>
