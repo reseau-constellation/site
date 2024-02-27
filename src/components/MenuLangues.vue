@@ -1,8 +1,6 @@
 <template>
   <v-btn
-    :style="
-      'position: absolute;' + (isRtl ? 'left:' : 'right:') + '20px; top: 20px'
-    "
+    :style="'position: absolute;' + (isRtl ? 'left:' : 'right:') + '20px; top: 20px'"
     icon="mdi-earth"
     size="small"
   >
@@ -23,7 +21,11 @@
           hide-details
           @click.stop
         ></v-text-field>
-        <v-list class="overflow-y-auto" max-height="400px" min-width="200px">
+        <v-list
+          class="overflow-y-auto"
+          max-height="400px"
+          min-width="200px"
+        >
           <item-langue
             v-for="code in languesDisponibles"
             :key="code"
@@ -38,13 +40,13 @@
 </template>
 
 <script setup lang="ts">
-import { useRtl } from "vuetify";
-import { மொழிகளைப்_பயன்படுத்து } from "@lassi-js/kilimukku-vue";
+import { useRtl } from 'vuetify';
+import { மொழிகளைப்_பயன்படுத்து } from '@lassi-js/kilimukku-vue';
 
-import ItemLangue from "@/components/ItemLangueProgrès.vue";
-import { கிளிமூக்கை_பயன்படுத்து } from "@lassi-js/kilimukku-vue";
+import ItemLangue from '@/components/ItemLangueProgrès.vue';
+import { கிளிமூக்கை_பயன்படுத்து } from '@lassi-js/kilimukku-vue';
 
-import { computed, ref } from "vue";
+import { computed, ref } from 'vue';
 
 const constellationPrète = ref(false);
 
@@ -62,12 +64,12 @@ const rechercheLangue = ref<string>();
 const languesDisponibles = computed(() => {
   return மொழிகளும்_குறியீடுகளும்.value
     .filter(
-      (lng) =>
+      lng =>
         !rechercheLangue.value ||
         lng.குறியீடு.includes(rechercheLangue.value) ||
         lng.மொழி.includes(rechercheLangue.value),
     )
-    .map((lng) => lng.குறியீடு);
+    .map(lng => lng.குறியீடு);
 });
 </script>
 

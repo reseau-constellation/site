@@ -123,7 +123,7 @@ export type InfoTéléchargement = {
   so: keyof typeof correspExtentions;
   url: string;
 };
-export const trouverSO = ({ext}: {ext: TypeExtention}): TypeSO | undefined => {
+export const trouverSO = ({ ext }: { ext: TypeExtention }): TypeSO | undefined => {
   return Object.keys(correspExtentions).find(cl =>
     (correspExtentions[cl as TypeSO] as unknown as TypeExtention[]).includes(ext),
   ) as TypeSO;
@@ -136,7 +136,7 @@ export const obtTousLesTéléchargements = async (): Promise<InfoTéléchargemen
     const version = t.name;
     for (const fichier of t.assets) {
       const ext = fichier.name.split('.').pop() as TypeExtention;
-      const so = trouverSO({ext});
+      const so = trouverSO({ ext });
       if (ext && so) {
         téléchargements.push({
           version,
