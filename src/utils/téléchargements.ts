@@ -89,7 +89,7 @@ type publicationGitHub = {
     assets: fichierPublicationGitHub[];
   };
 
-export const lienTéléchargement = async (): Promise<string> => {
+export const obtLienTéléchargement = async (): Promise<string|undefined> => {
   const jsonTéléchargements = (await axios.get("https://api.github.com/repos/reseau-constellation/iug/releases")).data as publicationGitHub[];
   let versionPlusRécente: string | undefined = undefined;
   let urlTéléchargement: string | undefined = undefined;
@@ -105,6 +105,5 @@ export const lienTéléchargement = async (): Promise<string> => {
       }
     }
   }
-  if (!urlTéléchargement) throw new Error();
   return urlTéléchargement;
 }

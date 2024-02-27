@@ -9,7 +9,12 @@ declare module 'vue' {
   export interface GlobalComponents {
     'CarteFonctionalité': typeof import('./src/components/CarteFonctionalité.vue')['default']
     CarteUtilisation: typeof import('./src/components/CarteUtilisation.vue')['default']
+    'ItemLangueProgrès': typeof import('./src/components/ItemLangueProgrès.vue')['default']
+    MenuLangues: typeof import('./src/components/MenuLangues.vue')['default']
     PagePrincipale: typeof import('./src/components/PagePrincipale.vue')['default']
+    'PageTéléchargements': typeof import('./src/components/PageTéléchargements.vue')['default']
+    RouterLink: typeof import('vue-router')['RouterLink']
+    RouterView: typeof import('vue-router')['RouterView']
     TitreSection: typeof import('./src/components/TitreSection.vue')['default']
   }
 }
