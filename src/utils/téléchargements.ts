@@ -27,8 +27,8 @@ export const plateforme = (): 'windows' | 'mac' | 'linux' | 'téléphoneOuTablet
 };
 
 export const surOrdi = () => {
-  const so = plateforme();
-  return so && so in ['windows', 'mac', 'linux'];
+  const se = plateforme();
+  return se && se in ['windows', 'mac', 'linux'];
 };
 
 export type auteurGitHub = {
@@ -120,7 +120,7 @@ export type TypeSO = keyof typeof correspExtentions;
 export type TypeExtention = (typeof correspExtentions)[keyof typeof correspExtentions][number];
 export type InfoTéléchargement = {
   version: string;
-  so: keyof typeof correspExtentions;
+  se: keyof typeof correspExtentions;
   url: string;
 };
 export const trouverSO = ({ ext }: { ext: TypeExtention }): TypeSO | undefined => {
@@ -136,11 +136,11 @@ export const obtTousLesTéléchargements = async (): Promise<InfoTéléchargemen
     const version = t.name;
     for (const fichier of t.assets) {
       const ext = fichier.name.split('.').pop() as TypeExtention;
-      const so = trouverSO({ ext });
-      if (ext && so) {
+      const se = trouverSO({ ext });
+      if (ext && se) {
         téléchargements.push({
           version,
-          so,
+          se,
           url: fichier.browser_download_url,
         });
       }

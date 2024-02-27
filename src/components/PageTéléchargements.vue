@@ -7,7 +7,7 @@
           variant="flat"
           max-width="200"
           href="/"
-          :title="'Retour'"
+          :title="t('téléchargements.retour')"
           prepend-icon="mdi-arrow-left-top"
         ></v-card>
       </v-col>
@@ -26,7 +26,8 @@
             <v-icon
               size="small"
               icon="mdi-download"
-            />Téléchargements
+            />
+            {{ t('téléchargements.titre') }}
           </h1>
           <div
             :class="{
@@ -36,7 +37,7 @@
               'mb-n1': true,
             }"
           >
-            Installer Constellation sur votre ordinateur
+          {{ t('téléchargements.sousTitre') }}
           </div>
         </div>
       </v-col>
@@ -46,7 +47,7 @@
           v-model="version"
           :label="t('téléchargements.options.version')"
           :items="[
-            { title: 'Toutes', value: 'toutes' },
+            { title: t('téléchargements.toutesVersions'), value: 'toutes' },
             ...versionsDisponibles.map(v => ({ title: v, value: v })),
           ]"
           variant="outlined"
@@ -54,12 +55,12 @@
       </v-col>
       <v-col :cols="mdAndUp ? 3 : 12">
         <v-autocomplete
-          v-model="so"
-          :label="t('téléchargements.options.so')"
+          v-model="se"
+          :label="t('téléchargements.options.se')"
           :items="[
-            { title: 'Tous', value: 'tous' },
+            { title: t('téléchargements.se.tous'), value: 'tous' },
             ...soDisponibles.map(s => ({
-              title: t(`téléchargements.so.${s}`),
+              title: t(`téléchargements.se.${s}`),
               value: s,
             })),
           ]"
@@ -75,18 +76,31 @@
       >
         <carte-telechargement v-bind="t" />
       </v-col>
-    </v-row>
-    <v-row>
-      <v-col
-        :cols="12"
-        class="text-center"
-      >
-        <v-btn
-          class="mx-auto"
-          append-icon="mdi-open-in-new"
-          :href="URL_TÉLÉCHARGEMENTS"
-          >Voir toutes</v-btn
-        >
+      <v-col cols="auto">
+        <v-card width="300">
+            <v-img
+              src="@/assets/undraw/undraw_treasure_of-9-i.svg"
+              class="ma-4"
+              contain
+              max-height="150"
+            ></v-img>
+            <v-card-item class="text-center">
+              <v-card-title>
+                {{ t(`téléchargements.pasTrouvé`) }}
+              </v-card-title>
+              <v-card-subtitle>
+                {{ t('téléchargements.voirPlus') }}
+              </v-card-subtitle>
+            </v-card-item>
+            <v-card-text class="my-2 text-center">
+              <v-btn
+                append-icon="mdi-open-in-new"
+                @click="() => ouvrirLien(URL_TÉLÉCHARGEMENTS)"
+              >
+              {{ t('téléchargements.ouvrir') }}
+              </v-btn>
+            </v-card-text>
+          </v-card>
       </v-col>
     </v-row>
   </span>
@@ -106,6 +120,7 @@ import {
   plateforme,
 } from '@/utils/téléchargements';
 import { கிளிமூக்கை_பயன்படுத்து } from '@lassi-js/kilimukku-vue';
+import { ouvrirLien } from '@/utils/utils';
 
 const { mdAndUp } = useDisplay();
 
@@ -113,10 +128,10 @@ const { மொழியாக்கம்_பயன்படுத்து } = 
 const { $மொ: t } = மொழியாக்கம்_பயன்படுத்து({});
 
 const version = ref<string>();
-const so = ref<string>();
+const se = ref<string>();
 onMounted(() => {
   if (['linux', 'windows', 'mac'].includes(plateforme() as string)) {
-    so.value = plateforme();
+    se.value = plateforme();
   }
 });
 
@@ -125,7 +140,7 @@ onMounted(async () => {
   disponibles.value = await obtTousLesTéléchargements();
   version.value = disponibles.value.sort((a, b) =>
     semver.gt(a.version, b.version) ? -1 : 1,
-  )[0].version;
+  )[0].version.replace(/^v/, '');
 });
 const versionsDisponibles = computed(() => {
   const versions = new Set<string>();
@@ -138,10 +153,9 @@ const soDisponibles = computed(() => {
 });
 
 const téléchargementsSélectionnés = computed(() => {
-  console.log(so.value);
   return disponibles.value?.filter(
     d =>
-      (so.value === 'tous' || d.so === so.value) &&
+      (se.value === 'tous' || d.se === se.value) &&
       (version.value === 'toutes' || d.version.replace(/^v/, '') === version.value),
   );
 });

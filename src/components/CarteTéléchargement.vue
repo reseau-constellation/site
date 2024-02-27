@@ -8,7 +8,7 @@
     ></v-img>
     <v-card-item class="text-center">
       <v-card-title>
-        {{ t(`téléchargements.soAvecExt.${so}`, { ext }) }}
+        {{ t(`téléchargements.soAvecExt.${se}`, { ext }) }}
       </v-card-title>
       <v-card-subtitle>
         {{ t('téléchargements.version', { v: versionFormattée }) }}
@@ -19,7 +19,7 @@
         prepend-icon="mdi-download"
         @click="ouvrirLien(url)"
       >
-        Télécharger
+        {{ t('téléchargements.télécharger') }}
       </v-btn>
     </v-card-text>
   </v-card>
@@ -54,7 +54,7 @@ const images = {
 
 const image = ref<string>();
 onMounted(async () => {
-  image.value = (await images[props.so]).default;
+  image.value = (await images[props.se]).default;
 });
 const ext = computed(() => {
   const composantes = props.url.split('.');

@@ -22,7 +22,7 @@
               'font-weight-bold': true,
             }"
           >
-            Constellation
+            {{ t('principale.titre') }}
           </h1>
           <div
             :class="{
@@ -32,7 +32,7 @@
               'mb-n1': true,
             }"
           >
-            Le réseau distribué pour les données scientifiques
+          {{ t('principale.sousTitre') }}
           </div>
         </div>
       </v-col>
@@ -42,58 +42,56 @@
       style="background-color: rgb(242, 247, 252)"
     >
       <titre-section
-        titre="Pourquoi Constellation ?"
+        :titre="t('principale.pourquoi.titre')"
         :sous-titre="[
-          'Constellation est un réseau pair-à-pair pour le partage des données scientifiques.',
-          'Il vous permet de collecter et de publier les données de vos projets sans utilisation de serveur centralisé.',
+          t('principale.pourquoi.sousTitre1'),
+          t('principale.pourquoi.sousTitre2'),
         ]"
       />
 
       <v-col cols="auto">
         <carte-fonctionalite
-          titre="Science citoyenne"
-          sous-titre="Obtenez des données en directe de vos participants sur le terrain, sans jamais avoir à vous inquiéter d'un serveur."
+          :titre="t('principale.pourquoi.parceque.scienceCitoyenne.titre')"
+          :sous-titre="t('principale.pourquoi.parceque.scienceCitoyenne.sousTitre')"
           :image="imgScienceCitoyenne"
         />
       </v-col>
       <v-col cols="auto">
         <carte-fonctionalite
-          titre="Reproductibilité"
-          sous-titre="Chacune de vos bases de données est accessible selon un identifiant unique. Il n'y a que vous qui pouvez la modifier."
+          :titre="t('principale.pourquoi.parceque.reproductibilité.titre')"
+          :sous-titre="t('principale.pourquoi.parceque.reproductibilité.sousTitre')"
           :image="imgSécurité"
         />
       </v-col>
       <v-col cols="auto">
         <carte-fonctionalite
-          titre="Sécurité"
-          sous-titre="Vos données resteront disponibles tant qu'au moins une autre personne sur le réseau s'y intéresse. Même si vous échapez votre thé sur votre ordi."
+          :titre="t('principale.pourquoi.parceque.sécurité.titre')"
+          :sous-titre="t('principale.pourquoi.parceque.sécurité.sousTitre')"
           :image="imgThé"
         />
       </v-col>
       <v-col cols="auto">
         <carte-fonctionalite
-          titre="Intégration en continue"
-          sous-titre="Configurez vos analyses en Python, R ou Julia et elles suivront en directe toute mise à jour des bases de données."
+          :titre="t('principale.pourquoi.parceque.intégration.titre')"
+          :sous-titre="t('principale.pourquoi.parceque.intégration.sousTitre')"
           :image="imgCode"
         />
       </v-col>
     </v-row>
     <v-row class="d-flex align-center justify-center pa-6">
       <titre-section
-        titre="Démarrer"
-        :sous-titre="[
-          'Vous pouvez utiliser Constellation en ligne, l\'installer sur votre ordinateur, ou bien l\'accéder dans votre langage de programmation favori.',
-        ]"
+        :titre="t('principale.démarrer.titre')"
+        :sous-titre="[t('principale.démarrer.sousTitre')]"
       />
       <v-col cols="auto">
         <v-card
           width="300"
           height="330"
           class="text-center"
-          @click="() => ouvrirLien('https://appli.réseau-constellation.ca')"
+          @click="() => ouvrirLien(lienAppli)"
         >
           <v-card-item class="mt-4">
-            <v-card-title class="text-h5 font-weight-bold">Appli en ligne</v-card-title>
+            <v-card-title class="text-h5 font-weight-bold">{{ t('principale.démarrer.comment.enLigne.titre') }}</v-card-title>
           </v-card-item>
           <v-card-text>
             <v-img
@@ -101,8 +99,7 @@
               height="100"
               :src="imgAppliEnLigne"
             />
-            Aucune installation nécessaire. Disponible sur téléphone et navigateur (pas de Safari,
-            désolé) !
+            {{ t('principale.démarrer.comment.enLigne.sousTitre') }}
           </v-card-text>
         </v-card>
       </v-col>
@@ -120,7 +117,7 @@
           "
         >
           <v-card-item class="mt-4">
-            <v-card-title class="text-h5 font-weight-bold">Installer Constellation</v-card-title>
+            <v-card-title class="text-h5 font-weight-bold">{{ t('principale.démarrer.comment.installer.titre') }}</v-card-title>
           </v-card-item>
           <v-card-text>
             <v-img
@@ -128,7 +125,7 @@
               height="100"
               :src="imgInstaller"
             />
-            Pour plus de fonctionnalités et d'indépendance.
+            {{ t('principale.démarrer.comment.installer.sousTitre') }}
           </v-card-text>
         </v-card>
       </v-col>
@@ -146,7 +143,7 @@
           "
         >
           <v-card-item class="mt-4">
-            <v-card-title class="text-h5 font-weight-bold">Accès programmatique</v-card-title>
+            <v-card-title class="text-h5 font-weight-bold">{{ t('principale.démarrer.comment.programme.titre') }}</v-card-title>
           </v-card-item>
           <v-card-text>
             <v-img
@@ -154,7 +151,7 @@
               height="100"
               :src="imgCode"
             />
-            Accéder au réseau Constellation à partir de votre langage de programmation favori.
+             {{ t('principale.démarrer.comment.programme.sousTitre') }}
           </v-card-text>
         </v-card>
       </v-col>
@@ -167,7 +164,7 @@
           @click="() => ouvrirLien('https://docu.réseau-constellation.ca')"
         >
           <v-card-item class="mt-4">
-            <v-card-title class="text-h5 font-weight-bold">Documentation</v-card-title>
+            <v-card-title class="text-h5 font-weight-bold">{{ t('principale.démarrer.comment.docu.titre') }}</v-card-title>
           </v-card-item>
           <v-card-text>
             <v-img
@@ -175,7 +172,7 @@
               height="100"
               :src="imgDocu"
             />
-            Les réponses à toutes vos questions. (Nous l'espérons.)
+             {{ t('principale.démarrer.comment.docu.sousTitre') }}
           </v-card-text>
         </v-card>
       </v-col>
@@ -184,7 +181,7 @@
       class="d-flex align-center justify-center pa-6"
       style="background-color: rgb(242, 247, 252)"
     >
-      <v-col cols="12"><h1 class="text-h3 font-weight-bold text-center"> Nous joindre </h1></v-col>
+      <v-col cols="12"><h1 class="text-h3 font-weight-bold text-center"> {{ t('principale.joindre.titre') }} </h1></v-col>
       <v-col cols="auto">
         <v-btn
           href="https://matrix.to/#/!poDYzupTbvLiBsnQSr:matrix.org?via=matrix.org"
@@ -199,7 +196,7 @@
             start
           />
 
-          Communauté
+          {{ t('principale.joindre.par.communauté') }}
         </v-btn>
       </v-col>
 
@@ -219,7 +216,7 @@
             start
           />
 
-          Code source
+          {{ t('principale.joindre.par.codeSource') }}
         </v-btn>
       </v-col>
 
@@ -236,7 +233,7 @@
             size="large"
             start
           />
-          Courriel
+          {{ t('principale.joindre.par.courriel') }}
         </v-btn>
       </v-col>
     </v-row>
@@ -244,8 +241,10 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref } from 'vue';
+import { computed, onMounted, ref } from 'vue';
 import { useDisplay } from 'vuetify';
+
+import { கிளிமூக்கை_பயன்படுத்து, மொழிகளைப்_பயன்படுத்து } from '@lassi-js/kilimukku-vue';
 
 import CarteFonctionalite from './CarteFonctionalité.vue';
 import TitreSection from './TitreSection.vue';
@@ -262,6 +261,14 @@ import { obtLienTéléchargement } from '@/utils/téléchargements';
 import { ouvrirLien } from '@/utils/utils';
 
 const { mdAndUp } = useDisplay();
+
+const { மொழியாக்கம்_பயன்படுத்து } = கிளிமூக்கை_பயன்படுத்து();
+const { $மொ: t, } = மொழியாக்கம்_பயன்படுத்து({});
+const { மொழி } = மொழிகளைப்_பயன்படுத்து()
+
+const lienAppli = computed(()=>{
+  return `https://appli.réseau-constellation.ca/#/?lg=${மொழி.value}`
+})
 
 const lienTéléchargementDirecte = ref<string>();
 onMounted(async () => {
