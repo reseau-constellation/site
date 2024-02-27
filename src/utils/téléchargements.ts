@@ -14,6 +14,23 @@ const extentionCompatible = (ext: string): boolean => {
     }
 };
 
+export const plateforme = (): "windows" | "mac" | "ubuntu" | "téléphoneOuTablette" | undefined=> {
+  if (platform.os?.family?.includes("Ubuntu")) {
+    return "ubuntu";
+  } else if (platform.os?.family?.includes("OS X")) {
+    return "mac";
+  } else if (platform.os?.family?.includes("Windows")) {
+    return 'windows';
+  } else if (platform.os?.family! in ["Android", "iOS", "Windows Phone"]){
+    return 'téléphoneOuTablette';
+  } 
+}
+
+export const surOrdi = () => {
+  const so = plateforme()
+  return so && so in ["windows", "mac" , "ubuntu"]
+}
+
 export type auteurGitHub = {
 login: string;
 id: number;
