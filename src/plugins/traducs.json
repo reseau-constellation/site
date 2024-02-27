@@ -1,1 +1,23 @@
-{}
+{
+  "fr": {
+    "téléchargements": {
+      "soAvecExt": {
+        "windows": "Windows ({ext})",
+        "mac": "Mac ({ext})",
+        "linux": "Linux ({ext})",
+        "source": "Code source ({ext})"
+      },
+      "so": {
+        "windows": "Windows",
+        "mac": "Mac",
+        "linux": "Linux",
+        "source": "Code source"
+      },
+      "version": "Version {v}",
+      "options": {
+        "version": "Version",
+        "so": "Système opératoire"
+      }
+    }
+  }
+}

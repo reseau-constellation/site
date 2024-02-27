@@ -5,7 +5,8 @@
     "dev": "cross-env NODE_OPTIONS='--no-warnings' vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "déployer": "node ./scripts/gh-pages-deploy.mjs"
+    "déployer": "node ./scripts/gh-pages-deploy.mjs",
+    "formatter": "npx prettier --write \"**/*.{js,mjs,cjs,ts,mts,cts,vue,json}\""
   },
   "dependencies": {
     "@lassi-js/kilimukku-vue": "^1.1.0",
