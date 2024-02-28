@@ -9,8 +9,8 @@ dependencies:
     specifier: ^1.1.0
     version: 1.1.0(@constl/ipa@1.0.0)(react-native@0.73.5)(vue@3.4.20)(wrtc@0.4.7)
   '@mdi/font':
-    specifier: 7.0.96
-    version: 7.0.96
+    specifier: 7.4.47
+    version: 7.4.47
   axios:
     specifier: ^1.6.7
     version: 1.6.7
@@ -3026,8 +3026,8 @@ packages:
       - supports-color
     dev: false
 
-  /@mdi/font@7.0.96:
-    resolution: {integrity: sha512-rzlxTfR64hqY8yiBzDjmANfcd8rv+T5C0Yedv/TWk2QyAQYdc66e0kaN1ipmnYU3RukHRTRcBARHzzm+tIhL7w==}
+  /@mdi/font@7.4.47:
+    resolution: {integrity: sha512-43MtGpd585SNzHZPcYowu/84Vz2a2g31TvPMTm9uTiCSWzaheQySUcSyUH/46fPnuPQWof2yd0pGBtzee/IQWw==}
     dev: false
 
   /@msgpackr-extract/msgpackr-extract-darwin-arm64@3.0.2:
