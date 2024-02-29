@@ -12,7 +12,17 @@
         ></v-card>
       </v-col>
       <v-col
-        :cols="12"
+        v-if="mdAndUp"
+        :cols="mdAndUp ? 4 : 12"
+        class="pa-6"
+      >
+        <v-img
+          height="300"
+          src="@/assets/logo.svg"
+        />
+      </v-col>
+      <v-col
+        :cols="mdAndUp ? 8 : 12"
         :class="{ 'my-auto': true, 'd-flex': true, 'text-center': !mdAndUp }"
       >
         <div style="width: 100%">
@@ -23,10 +33,6 @@
               'font-weight-bold': true,
             }"
           >
-            <v-icon
-              size="small"
-              icon="mdi-download"
-            />
             {{ t('téléchargements.titre') }}
           </h1>
           <div
@@ -37,11 +43,24 @@
               'mb-n1': true,
             }"
           >
-          {{ t('téléchargements.sousTitre') }}
+            <v-icon
+              size="small"
+              icon="mdi-download"
+            />
+            {{ t('téléchargements.sousTitre') }}
           </div>
         </div>
       </v-col>
-
+    </v-row>
+    <v-row
+      class="d-flex align-center justify-center pa-6"
+      style="background-color: rgb(242, 247, 252)"
+    >
+      <v-col cols="12"
+        ><h1 class="text-h3 font-weight-bold text-center">
+          {{ t('téléchargements.contrôles.titre') }}
+        </h1></v-col
+      >
       <v-col :cols="mdAndUp ? 3 : 12">
         <v-autocomplete
           v-model="version"
@@ -68,6 +87,15 @@
         ></v-autocomplete>
       </v-col>
     </v-row>
+
+    <v-row class="d-flex align-center justify-center pa-6">
+      <v-expand-transition>
+        <indice-installation-apple
+          v-show="surPlateforme === 'mac' && (se === 'mac' || se === 'tous')"
+        />
+      </v-expand-transition>
+    </v-row>
+
     <v-row class="d-flex align-center justify-center pa-6">
       <v-col
         v-for="t in téléchargementsSélectionnés"
@@ -78,29 +106,29 @@
       </v-col>
       <v-col cols="auto">
         <v-card width="300">
-            <v-img
-              src="@/assets/undraw/undraw_treasure_of-9-i.svg"
-              class="ma-4"
-              contain
-              max-height="150"
-            ></v-img>
-            <v-card-item class="text-center">
-              <v-card-title>
-                {{ t(`téléchargements.pasTrouvé`) }}
-              </v-card-title>
-              <v-card-subtitle>
-                {{ t('téléchargements.voirPlus') }}
-              </v-card-subtitle>
-            </v-card-item>
-            <v-card-text class="my-2 text-center">
-              <v-btn
-                append-icon="mdi-open-in-new"
-                @click="() => ouvrirLien(URL_TÉLÉCHARGEMENTS)"
-              >
+          <v-img
+            src="@/assets/undraw/undraw_treasure_of-9-i.svg"
+            class="ma-4"
+            contain
+            max-height="150"
+          ></v-img>
+          <v-card-item class="text-center">
+            <v-card-title>
+              {{ t(`téléchargements.pasTrouvé`) }}
+            </v-card-title>
+            <v-card-subtitle>
+              {{ t('téléchargements.voirPlus') }}
+            </v-card-subtitle>
+          </v-card-item>
+          <v-card-text class="my-2 text-center">
+            <v-btn
+              append-icon="mdi-open-in-new"
+              @click="() => ouvrirLien(URL_TÉLÉCHARGEMENTS)"
+            >
               {{ t('téléchargements.ouvrir') }}
-              </v-btn>
-            </v-card-text>
-          </v-card>
+            </v-btn>
+          </v-card-text>
+        </v-card>
       </v-col>
     </v-row>
   </span>
@@ -111,6 +139,7 @@ import { useDisplay } from 'vuetify';
 import semver from 'semver';
 
 import CarteTelechargement from './CarteTéléchargement.vue';
+import IndiceInstallationApple from './IndiceInstallationApple.vue';
 
 import {
   InfoTéléchargement,
@@ -129,18 +158,19 @@ const { $மொ: t } = மொழியாக்கம்_பயன்படு�
 
 const version = ref<string>();
 const se = ref<string>();
+const surPlateforme = plateforme();
 onMounted(() => {
-  if (['linux', 'windows', 'mac'].includes(plateforme() as string)) {
-    se.value = plateforme();
+  if (surPlateforme && ['linux', 'windows', 'mac'].includes(surPlateforme)) {
+    se.value = surPlateforme;
   }
 });
 
 const disponibles = ref<InfoTéléchargement[]>();
 onMounted(async () => {
   disponibles.value = await obtTousLesTéléchargements();
-  version.value = disponibles.value.sort((a, b) =>
-    semver.gt(a.version, b.version) ? -1 : 1,
-  )[0].version.replace(/^v/, '');
+  version.value = disponibles.value
+    .sort((a, b) => (semver.gt(a.version, b.version) ? -1 : 1))[0]
+    .version.replace(/^v/, '');
 });
 const versionsDisponibles = computed(() => {
   const versions = new Set<string>();
