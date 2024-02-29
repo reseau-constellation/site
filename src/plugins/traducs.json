@@ -1,66 +1,69 @@
 {
   "fr": {
     "principale": {
-        "titre": "Constellation",
-        "sousTitre": "Le réseau distribué pour les données scientifiques",
-        "pourquoi": {
-            "titre": "Pourquoi Constellation ?",
-            "sousTitre1": "Constellation est un réseau pair-à-pair pour le partage des données scientifiques.",
-            "sousTitre2": "Il vous permet de collecter et de publier les données de vos projets sans utilisation de serveur centralisé.",
-            "parceque": {
-                "scienceCitoyenne": {
-                    "titre": "Science citoyenne",
-                    "sousTitre": "Obtenez des données en directe de vos participants sur le terrain, sans jamais avoir à vous inquiéter d'un serveur."
-                },
-                "reproductibilité": {
-                    "titre": "Reproductibilité",
-                    "sousTitre": "Chacune de vos bases de données est accessible selon un identifiant unique. Il n'y a que vous qui pouvez la modifier."
-                },
-                "sécurité": {
-                    "titre": "Sécurité",
-                    "sousTitre": "Vos données resteront disponibles tant qu'au moins une autre personne sur le réseau s'y intéresse. Même si vous échapez votre thé sur votre ordi."
-                },
-                "intégration": {
-                    "titre": "Intégration en continue",
-                    "sousTitre": "Configurez vos analyses en Python, R ou Julia et elles suivront en directe toute mise à jour des bases de données."
-                }
-            }
-        },
-        "démarrer": {
-            "titre": "Démarrer",
-            "sousTitre": "Vous pouvez utiliser Constellation en ligne, l'installer sur votre ordinateur, ou bien l'accéder dans votre langage de programmation favori.",
-            "comment": {
-                "enLigne": {
-                    "titre": "Appli en ligne",
-                    "sousTitre": "Aucune installation nécessaire. Disponible sur téléphone et navigateur (pas de Safari, désolé) !"
-                },
-                "installer": {
-                    "titre": "Installer Constellation",
-                    "sousTitre": "Pour plus de fonctionnalités et d'indépendance."
-                },
-                "programme": {
-                    "titre": "Accès programmatique",
-                    "sousTitre": "Accéder au réseau Constellation à partir de votre langage de programmation favori."
-                },
-                "docu": {
-                    "titre": "Documentation",
-                    "sousTitre": "Les réponses à toutes vos questions. (Nous l'espérons.)"
-                }
-            }
-        },
-        "joindre": {
-            "titre": "Nous joindre",
-            "par": {
-                "communauté": "Communauté",
-                "codeSource": "Code source",
-                "courriel": "Courriel"
-            }
+      "titre": "Constellation",
+      "sousTitre": "Le réseau distribué pour les données scientifiques",
+      "pourquoi": {
+        "titre": "Pourquoi Constellation ?",
+        "sousTitre1": "Constellation est un réseau pair-à-pair pour le partage des données scientifiques.",
+        "sousTitre2": "Il vous permet de collecter et de publier les données de vos projets sans utilisation de serveur centralisé.",
+        "parceque": {
+          "scienceCitoyenne": {
+            "titre": "Science citoyenne",
+            "sousTitre": "Obtenez des données en directe de vos participants sur le terrain, sans jamais avoir à vous inquiéter d'un serveur."
+          },
+          "reproductibilité": {
+            "titre": "Reproductibilité",
+            "sousTitre": "Chacune de vos bases de données est accessible selon un identifiant unique. Il n'y a que vous qui pouvez la modifier."
+          },
+          "sécurité": {
+            "titre": "Sécurité",
+            "sousTitre": "Vos données resteront disponibles tant qu'au moins une autre personne sur le réseau s'y intéresse. Même si vous échapez votre thé sur votre ordi."
+          },
+          "intégration": {
+            "titre": "Intégration en continue",
+            "sousTitre": "Configurez vos analyses en Python, R ou Julia et elles suivront en directe toute mise à jour des bases de données."
+          }
         }
+      },
+      "démarrer": {
+        "titre": "Démarrer",
+        "sousTitre": "Vous pouvez utiliser Constellation en ligne, l'installer sur votre ordinateur, ou bien l'accéder dans votre langage de programmation favori.",
+        "comment": {
+          "enLigne": {
+            "titre": "Appli en ligne",
+            "sousTitre": "Aucune installation nécessaire. Disponible sur téléphone et navigateur (pas de Safari, désolé) !"
+          },
+          "installer": {
+            "titre": "Installer Constellation",
+            "sousTitre": "Pour plus de fonctionnalités et d'indépendance."
+          },
+          "programme": {
+            "titre": "Accès programmatique",
+            "sousTitre": "Accéder au réseau Constellation à partir de votre langage de programmation favori."
+          },
+          "docu": {
+            "titre": "Documentation",
+            "sousTitre": "Les réponses à toutes vos questions. (Nous l'espérons.)"
+          }
+        }
+      },
+      "joindre": {
+        "titre": "Nous joindre",
+        "par": {
+          "communauté": "Communauté",
+          "codeSource": "Code source",
+          "courriel": "Courriel"
+        }
+      }
     },
     "téléchargements": {
       "titre": "Téléchargements",
       "sousTitre": "Installer Constellation sur votre ordinateur",
       "retour": "Retour",
+      "contrôles": {
+        "titre": "Versions disponibles"
+      },
       "soAvecExt": {
         "windows": "Windows ({ext})",
         "mac": "Mac ({ext})",
@@ -73,6 +76,12 @@
         "linux": "Linux",
         "source": "Code source",
         "tous": "Tous"
+      },
+      "apple": {
+        "titre": "Info pour installation sur macOS",
+        "texte": "Nous rechignons de payer 100 $ annuellement à Apple  pour le privilège de développer des logiciels pour leur plateforme. Constellation doit donc être installée en tant que programme non vérifié par Apple.",
+        "btn": "Voir comment",
+        "lienExterne": "https://duckduckgo.com/?q=macos+installer+application+non+sign%C3%A9&t=ffab&atb=v308-1&ia=web"
       },
       "version": "Version {v}",
       "toutesVersions": "Toutes",
@@ -88,89 +97,98 @@
   },
   "த": {
     "principale": {
-        "titre": "விண்மீன்",
-        "sousTitre": "அறிவியல் தரவுகளுக்காக விநியோகிக்கப்பட்ட அமைப்பு",
-        "pourquoi": {
-            "titre": "விண்மீன்க்கு எந்த பலன்?",
-            "sousTitre1": "அறிவியல் தரவுகளின் பகிர்வுக்காக விண்மீன் ஒரு சமவுரிமைப் பகிர்வு பிணையம் ஆகும்.",
-            "sousTitre2": "மையப்படுத்தப்பட்ட வழங்கி இல்லாமலே உங்கள் திட்டங்களின் தரவு பேருதல் மற்றும் விநியோகத்துக்காக உங்களை உதவிக்கும்.",
-            "parceque": {
-                "scienceCitoyenne": {
-                    "titre": "குடிமக்கள் அறிவியல்",
-                    "sousTitre": "உங்கள் பங்களிப்பாளர்களால் நேரடியாக தரவுகள் கிடைக்கும். வழங்கி மேலாண்மையைப் பற்றி நீங்கள் கவலை ஒன்றும் செய்ய வேண்டாம்."
-                },
-                "reproductibilité": {
-                    "titre": "நம்பக்கத்தன்மை",
-                    "sousTitre": "உங்கள் ஒவ்வொரு தரவுத்தளத்துக்கு ஒரே அடையாளம் கிடைக்கும். உங்களைத் தவிர வேறு யாராவதால் இந்த தரவுத்தளத்தை திருத்த முடியாது."
-                },
-                "sécurité": {
-                    "titre": "பாதுகாப்பு",
-                    "sousTitre": "தேன்னீர் உங்கள் கணினிக்கு மேலே ஊற்றினாலும், உங்கள் தரவுகள் வேறு ஆர்வமுள்ள ஒரு பயன்பாளரின் சாதனத்தில் திறந்ததாக இருந்தால், அவை முழுமையாக பாதுகாப்பாக இருக்கும்."
-                },
-                "intégration": {
-                    "titre": "நேரடியான பகுப்பாய்வுகள்",
-                    "sousTitre": "பைத்தான், ஜூலியா, அல்லது ஆர் நிரல்மொழிகளில் உங்கள் அனைத்த பகுப்பாய்வுகளை நேரடியாக விண்மீன் அமைப்புடன் இணைந்து செயல்படுத்தலாம்."
-                }
-            }
-        },
-        "démarrer": {
-            "titre": "தொடக்கம்",
-            "sousTitre": "விண்மீனை இணையத்திலோ, உங்கள் கணினியிலோ, உங்களுக்கு பிடித்த நிரலாக்க மொழியிலோ பயன்படுத்தலாம்.",
-            "comment": {
-                "enLigne": {
-                    "titre": "இணையத்தில் செயலி",
-                    "sousTitre": "எந்த நிறுவலும் தேவையில்லை. உலாவி மற்றும் கைப்பேசியில் கிடைக்கும் (ஆனால் ஸாஃபாரி வேண்டாம், மன்னிக்கவும்)."
-                },
-                "installer": {
-                    "titre": "விண்மீன் நிறுவல்",
-                    "sousTitre": "அதிகமான சுதந்திரமும் செயல்பாடுகளும்."
-                },
-                "programme": {
-                    "titre": "மென்பொருள் மூலம் அணுகல்",
-                    "sousTitre": "உங்கள் பிடித்த நிரல்மொழி மூலமாக விண்மீன் வலைக்கு அணுகல்."
-                },
-                "docu": {
-                    "titre": "ஆவணங்கள்",
-                    "sousTitre": "உங்கள் கேள்விகளுக்கு அனைத்த பதில்கள்."
-                }
-            }
-        },
-        "joindre": {
-            "titre": "தொடர்பு கொள்ளு",
-            "par": {
-                "communauté": "சமூகம்",
-                "codeSource": "மூல் குறியீடு",
-                "courriel": "மின்னஞ்சல்"
-            }
+      "titre": "விண்மீன்",
+      "sousTitre": "அறிவியல் தரவுகளுக்காக விநியோகிக்கப்பட்ட அமைப்பு",
+      "pourquoi": {
+        "titre": "விண்மீன்க்கு எந்த பலன்?",
+        "sousTitre1": "அறிவியல் தரவுகளின் பகிர்வுக்காக விண்மீன் ஒரு சமவுரிமைப் பகிர்வு பிணையம் ஆகும்.",
+        "sousTitre2": "மையப்படுத்தப்பட்ட வழங்கி இல்லாமலே உங்கள் திட்டங்களின் தரவு பேருதல் மற்றும் விநியோகத்துக்காக உங்களை உதவிக்கும்.",
+        "parceque": {
+          "scienceCitoyenne": {
+            "titre": "குடிமக்கள் அறிவியல்",
+            "sousTitre": "உங்கள் பங்களிப்பாளர்களால் நேரடியாக தரவுகள் கிடைக்கும். வழங்கி மேலாண்மையைப் பற்றி நீங்கள் கவலை ஒன்றும் செய்ய வேண்டாம்."
+          },
+          "reproductibilité": {
+            "titre": "நம்பக்கத்தன்மை",
+            "sousTitre": "உங்கள் ஒவ்வொரு தரவுத்தளத்துக்கு ஒரே அடையாளம் கிடைக்கும். உங்களைத் தவிர வேறு யாராவதால் இந்த தரவுத்தளத்தை திருத்த முடியாது."
+          },
+          "sécurité": {
+            "titre": "பாதுகாப்பு",
+            "sousTitre": "தேன்னீர் உங்கள் கணினிக்கு மேலே ஊற்றினாலும், உங்கள் தரவுகள் வேறு ஆர்வமுள்ள ஒரு பயன்பாளரின் சாதனத்தில் திறந்ததாக இருந்தால், அவை முழுமையாக பாதுகாப்பாக இருக்கும்."
+          },
+          "intégration": {
+            "titre": "நேரடியான பகுப்பாய்வுகள்",
+            "sousTitre": "பைத்தான், ஜூலியா, அல்லது ஆர் நிரல்மொழிகளில் உங்கள் அனைத்த பகுப்பாய்வுகளை நேரடியாக விண்மீன் அமைப்புடன் இணைந்து செயல்படுத்தலாம்."
+          }
         }
+      },
+      "démarrer": {
+        "titre": "தொடக்கம்",
+        "sousTitre": "விண்மீனை இணையத்திலோ, உங்கள் கணினியிலோ, உங்களுக்கு பிடித்த நிரலாக்க மொழியிலோ பயன்படுத்தலாம்.",
+        "comment": {
+          "enLigne": {
+            "titre": "இணையத்தில் செயலி",
+            "sousTitre": "எந்த நிறுவலும் தேவையில்லை. உலாவி மற்றும் கைப்பேசியில் கிடைக்கும் (ஆனால் ஸாஃபாரி வேண்டாம், மன்னிக்கவும்)."
+          },
+          "installer": {
+            "titre": "விண்மீன் நிறுவல்",
+            "sousTitre": "அதிகமான சுதந்திரமும் செயல்பாடுகளும்."
+          },
+          "programme": {
+            "titre": "மென்பொருள் மூலம் அணுகல்",
+            "sousTitre": "உங்கள் பிடித்த நிரல்மொழி மூலமாக விண்மீன் வலைக்கு அணுகல்."
+          },
+          "docu": {
+            "titre": "ஆவணங்கள்",
+            "sousTitre": "உங்கள் கேள்விகளுக்கு அனைத்த பதில்கள்."
+          }
+        }
+      },
+      "joindre": {
+        "titre": "தொடர்பு கொள்ளு",
+        "par": {
+          "communauté": "சமூகம்",
+          "codeSource": "மூல் குறியீடு",
+          "courriel": "மின்னஞ்சல்"
+        }
+      }
     },
     "téléchargements": {
-        "titre": "பதிவிறக்கங்கள்",
-        "sousTitre": "உங்கள் கணினியில் விண்மீனை நிறுவல் செய்யு",
-        "retour": "பின்",
-        "soAvecExt": {
-          "windows": "விண்டோஸ் ({ext})",
-          "mac": "மாக் ({ext})",
-          "linux": "லினக்ஸ் ({ext})",
-          "source": "மூல் குறியீடு ({ext})"
-        },
-        "se": {
-          "windows": "விண்டோஸ்",
-          "mac": "மாக்",
-          "linux": "லினக்ஸ்",
-          "source": "மூல் குறியீடு",
-          "tous": "அனைத்தும்"
-        },
-        "version": "பதிப்பு {v}",
-        "toutesVersions": "அனைத்தும்",
-        "options": {
-          "version": "பதிப்பு",
-          "se": "இயக்கு தளம்"
-        },
-        "télécharger": "பதிவிறக்கு",
-        "pasTrouvé": "கண்டுப்பிடிக்க முடியவில்லையா?",
-        "voirPlus": "முழு பட்டியலைக் காண்க",
-        "ouvrir": "திறு"
+      "titre": "பதிவிறக்கங்கள்",
+      "sousTitre": "உங்கள் கணினியில் விண்மீனை நிறுவல் செய்யு",
+      "retour": "பின்",
+      "contrôles": {
+        "titre": "பதிப்பு"
+      },
+      "soAvecExt": {
+        "windows": "விண்டோஸ் ({ext})",
+        "mac": "மாக் ({ext})",
+        "linux": "லினக்ஸ் ({ext})",
+        "source": "மூல் குறியீடு ({ext})"
+      },
+      "se": {
+        "windows": "விண்டோஸ்",
+        "mac": "மாக்",
+        "linux": "லினக்ஸ்",
+        "source": "மூல் குறியீடு",
+        "tous": "அனைத்தும்"
+      },
+      "apple": {
+        "titre": "மாக் என்று கணினியில் நிறுவல் அறிவுருத்தல்கள்",
+        "texte": "நாங்கள் ஆப்பில் நிறுவனத்துக்கு ஆண்டாக நூறு டாலர் கட்டணம் கட்ட விரும்பதில்லை. அதனால் ஆப்பிலால் உறுதி செய்யப்பட்டாத நிறுவலாக விண்மீனை நிறுவல் செய்யவும்.",
+        "btn": "எவ்வாறு என்று காண்க",
+        "lienExterne": "https://duckduckgo.com/?q=macos+installer+application+non+sign%C3%A9&t=ffab&atb=v308-1&ia=web"
+      },
+      "version": "பதிப்பு {v}",
+      "toutesVersions": "அனைத்தும்",
+      "options": {
+        "version": "பதிப்பு",
+        "se": "இயக்கு தளம்"
+      },
+      "télécharger": "பதிவிறக்கு",
+      "pasTrouvé": "கண்டுப்பிடிக்க முடியவில்லையா?",
+      "voirPlus": "முழு பட்டியலைக் காண்க",
+      "ouvrir": "திறு"
     }
   }
 }

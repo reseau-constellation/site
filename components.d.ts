@@ -7,15 +7,16 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
-    'CarteFonctionalité': typeof import('./src/components/CarteFonctionalité.vue')['default']
-    'CarteTéléchargement': typeof import('./src/components/CarteTéléchargement.vue')['default']
-    CarteUtilisation: typeof import('./src/components/CarteUtilisation.vue')['default']
-    'ItemLangueProgrès': typeof import('./src/components/ItemLangueProgrès.vue')['default']
-    MenuLangues: typeof import('./src/components/MenuLangues.vue')['default']
-    PagePrincipale: typeof import('./src/components/PagePrincipale.vue')['default']
-    'PageTéléchargements': typeof import('./src/components/PageTéléchargements.vue')['default']
-    RouterLink: typeof import('vue-router')['RouterLink']
-    RouterView: typeof import('vue-router')['RouterView']
-    TitreSection: typeof import('./src/components/TitreSection.vue')['default']
+    CarteFonctionalité: (typeof import('./src/components/CarteFonctionalité.vue'))['default'];
+    CarteTéléchargement: (typeof import('./src/components/CarteTéléchargement.vue'))['default'];
+    CarteUtilisation: (typeof import('./src/components/CarteUtilisation.vue'))['default'];
+    IndiceInstallationApple: (typeof import('./src/components/IndiceInstallationApple.vue'))['default'];
+    ItemLangueProgrès: (typeof import('./src/components/ItemLangueProgrès.vue'))['default'];
+    MenuLangues: (typeof import('./src/components/MenuLangues.vue'))['default'];
+    PagePrincipale: (typeof import('./src/components/PagePrincipale.vue'))['default'];
+    PageTéléchargements: (typeof import('./src/components/PageTéléchargements.vue'))['default'];
+    RouterLink: (typeof import('vue-router'))['RouterLink'];
+    RouterView: (typeof import('vue-router'))['RouterView'];
+    TitreSection: (typeof import('./src/components/TitreSection.vue'))['default'];
   }
 }

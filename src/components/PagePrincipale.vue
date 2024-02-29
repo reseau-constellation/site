@@ -32,7 +32,7 @@
               'mb-n1': true,
             }"
           >
-          {{ t('principale.sousTitre') }}
+            {{ t('principale.sousTitre') }}
           </div>
         </div>
       </v-col>
@@ -43,10 +43,7 @@
     >
       <titre-section
         :titre="t('principale.pourquoi.titre')"
-        :sous-titre="[
-          t('principale.pourquoi.sousTitre1'),
-          t('principale.pourquoi.sousTitre2'),
-        ]"
+        :sous-titre="[t('principale.pourquoi.sousTitre1'), t('principale.pourquoi.sousTitre2')]"
       />
 
       <v-col cols="auto">
@@ -91,7 +88,9 @@
           @click="() => ouvrirLien(lienAppli)"
         >
           <v-card-item class="mt-4">
-            <v-card-title class="text-h5 font-weight-bold">{{ t('principale.démarrer.comment.enLigne.titre') }}</v-card-title>
+            <v-card-title class="text-h5 font-weight-bold">{{
+              t('principale.démarrer.comment.enLigne.titre')
+            }}</v-card-title>
           </v-card-item>
           <v-card-text>
             <v-img
@@ -117,7 +116,9 @@
           "
         >
           <v-card-item class="mt-4">
-            <v-card-title class="text-h5 font-weight-bold">{{ t('principale.démarrer.comment.installer.titre') }}</v-card-title>
+            <v-card-title class="text-h5 font-weight-bold">{{
+              t('principale.démarrer.comment.installer.titre')
+            }}</v-card-title>
           </v-card-item>
           <v-card-text>
             <v-img
@@ -143,7 +144,9 @@
           "
         >
           <v-card-item class="mt-4">
-            <v-card-title class="text-h5 font-weight-bold">{{ t('principale.démarrer.comment.programme.titre') }}</v-card-title>
+            <v-card-title class="text-h5 font-weight-bold">{{
+              t('principale.démarrer.comment.programme.titre')
+            }}</v-card-title>
           </v-card-item>
           <v-card-text>
             <v-img
@@ -151,7 +154,7 @@
               height="100"
               :src="imgCode"
             />
-             {{ t('principale.démarrer.comment.programme.sousTitre') }}
+            {{ t('principale.démarrer.comment.programme.sousTitre') }}
           </v-card-text>
         </v-card>
       </v-col>
@@ -164,7 +167,9 @@
           @click="() => ouvrirLien('https://docu.réseau-constellation.ca')"
         >
           <v-card-item class="mt-4">
-            <v-card-title class="text-h5 font-weight-bold">{{ t('principale.démarrer.comment.docu.titre') }}</v-card-title>
+            <v-card-title class="text-h5 font-weight-bold">{{
+              t('principale.démarrer.comment.docu.titre')
+            }}</v-card-title>
           </v-card-item>
           <v-card-text>
             <v-img
@@ -172,7 +177,7 @@
               height="100"
               :src="imgDocu"
             />
-             {{ t('principale.démarrer.comment.docu.sousTitre') }}
+            {{ t('principale.démarrer.comment.docu.sousTitre') }}
           </v-card-text>
         </v-card>
       </v-col>
@@ -181,7 +186,11 @@
       class="d-flex align-center justify-center pa-6"
       style="background-color: rgb(242, 247, 252)"
     >
-      <v-col cols="12"><h1 class="text-h3 font-weight-bold text-center"> {{ t('principale.joindre.titre') }} </h1></v-col>
+      <v-col cols="12"
+        ><h1 class="text-h3 font-weight-bold text-center">
+          {{ t('principale.joindre.titre') }}
+        </h1></v-col
+      >
       <v-col cols="auto">
         <v-btn
           href="https://matrix.to/#/!poDYzupTbvLiBsnQSr:matrix.org?via=matrix.org"
@@ -263,12 +272,12 @@ import { ouvrirLien } from '@/utils/utils';
 const { mdAndUp } = useDisplay();
 
 const { மொழியாக்கம்_பயன்படுத்து } = கிளிமூக்கை_பயன்படுத்து();
-const { $மொ: t, } = மொழியாக்கம்_பயன்படுத்து({});
-const { மொழி } = மொழிகளைப்_பயன்படுத்து()
+const { $மொ: t } = மொழியாக்கம்_பயன்படுத்து({});
+const { மொழி } = மொழிகளைப்_பயன்படுத்து();
 
-const lienAppli = computed(()=>{
-  return `https://appli.réseau-constellation.ca/#/?lg=${மொழி.value}`
-})
+const lienAppli = computed(() => {
+  return `https://appli.réseau-constellation.ca/#/?lg=${மொழி.value}`;
+});
 
 const lienTéléchargementDirecte = ref<string>();
 onMounted(async () => {
