@@ -34,7 +34,7 @@ importers:
         version: 4.3.2(vue@3.4.26(typescript@5.4.5))
       vuetify:
         specifier: ^3.0.0
-        version: 3.6.0(typescript@5.4.5)(vite-plugin-vuetify@2.0.3)(vue@3.4.26(typescript@5.4.5))
+        version: 3.6.3(typescript@5.4.5)(vite-plugin-vuetify@2.0.3)(vue@3.4.26(typescript@5.4.5))
     devDependencies:
       '@babel/types':
         specifier: ^7.23.0
@@ -71,7 +71,7 @@ importers:
         version: 5.2.10(@types/node@20.12.8)(sass@1.76.0)(terser@5.30.3)
       vite-plugin-vuetify:
         specifier: ^2.0.0
-        version: 2.0.3(vite@5.2.10(@types/node@20.12.8)(sass@1.76.0)(terser@5.30.3))(vue@3.4.26(typescript@5.4.5))(vuetify@3.6.0)
+        version: 2.0.3(vite@5.2.10(@types/node@20.12.8)(sass@1.76.0)(terser@5.30.3))(vue@3.4.26(typescript@5.4.5))(vuetify@3.6.3)
       vue-tsc:
         specifier: ^2.0.0
         version: 2.0.16(typescript@5.4.5)
@@ -2294,8 +2294,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.4.752:
-    resolution: {integrity: sha512-P3QJreYI/AUTcfBVrC4zy9KvnZWekViThgQMX/VpJ+IsOBbcX5JFpORM4qWapwWQ+agb2nYAOyn/4PMXOk0m2Q==}
+  electron-to-chromium@1.4.754:
+    resolution: {integrity: sha512-7Kr5jUdns5rL/M9wFFmMZAgFDuL2YOnanFH4OI4iFzUqyh3XOL7nAGbSlSMZdzKMIyyTpNSbqZsWG9odwLeKvA==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -4492,8 +4492,8 @@ packages:
       typescript:
         optional: true
 
-  vuetify@3.6.0:
-    resolution: {integrity: sha512-ic7VrB+nOTo8F7APhcKPjtDEO3yBCK5CJ2LIQ/4oAC/aaAKtuGuNMBUiUVitDKQjr0tcnDgy9Ar1CrHU5d28IA==}
+  vuetify@3.6.3:
+    resolution: {integrity: sha512-OBYYJYnNeUYA7kwrv8Rag1EBFbGWAQxJpp0s98U2KQ6SPU7MzzcrvNn7t69vcDbj7mR7Dcf9/jvFapfranXZvA==}
     engines: {node: ^12.20 || >=14.13}
     peerDependencies:
       typescript: '>=4.7'
@@ -7419,11 +7419,11 @@ snapshots:
 
   '@vue/shared@3.4.26': {}
 
-  '@vuetify/loader-shared@2.0.3(vue@3.4.26(typescript@5.4.5))(vuetify@3.6.0(typescript@5.4.5)(vite-plugin-vuetify@2.0.3)(vue@3.4.26(typescript@5.4.5)))':
+  '@vuetify/loader-shared@2.0.3(vue@3.4.26(typescript@5.4.5))(vuetify@3.6.3(typescript@5.4.5)(vite-plugin-vuetify@2.0.3)(vue@3.4.26(typescript@5.4.5)))':
     dependencies:
       upath: 2.0.1
       vue: 3.4.26(typescript@5.4.5)
-      vuetify: 3.6.0(typescript@5.4.5)(vite-plugin-vuetify@2.0.3)(vue@3.4.26(typescript@5.4.5))
+      vuetify: 3.6.3(typescript@5.4.5)(vite-plugin-vuetify@2.0.3)(vue@3.4.26(typescript@5.4.5))
 
   abbrev@1.1.1: {}
 
@@ -7656,7 +7656,7 @@ snapshots:
   browserslist@4.23.0:
     dependencies:
       caniuse-lite: 1.0.30001614
-      electron-to-chromium: 1.4.752
+      electron-to-chromium: 1.4.754
       node-releases: 2.0.14
       update-browserslist-db: 1.0.14(browserslist@4.23.0)
 
@@ -8028,7 +8028,7 @@ snapshots:
     dependencies:
       jake: 10.8.7
 
-  electron-to-chromium@1.4.752: {}
+  electron-to-chromium@1.4.754: {}
 
   emoji-regex@8.0.0: {}
 
@@ -10542,14 +10542,14 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite-plugin-vuetify@2.0.3(vite@5.2.10(@types/node@20.12.8)(sass@1.76.0)(terser@5.30.3))(vue@3.4.26(typescript@5.4.5))(vuetify@3.6.0):
+  vite-plugin-vuetify@2.0.3(vite@5.2.10(@types/node@20.12.8)(sass@1.76.0)(terser@5.30.3))(vue@3.4.26(typescript@5.4.5))(vuetify@3.6.3):
     dependencies:
-      '@vuetify/loader-shared': 2.0.3(vue@3.4.26(typescript@5.4.5))(vuetify@3.6.0(typescript@5.4.5)(vite-plugin-vuetify@2.0.3)(vue@3.4.26(typescript@5.4.5)))
+      '@vuetify/loader-shared': 2.0.3(vue@3.4.26(typescript@5.4.5))(vuetify@3.6.3(typescript@5.4.5)(vite-plugin-vuetify@2.0.3)(vue@3.4.26(typescript@5.4.5)))
       debug: 4.3.4
       upath: 2.0.1
       vite: 5.2.10(@types/node@20.12.8)(sass@1.76.0)(terser@5.30.3)
       vue: 3.4.26(typescript@5.4.5)
-      vuetify: 3.6.0(typescript@5.4.5)(vite-plugin-vuetify@2.0.3)(vue@3.4.26(typescript@5.4.5))
+      vuetify: 3.6.3(typescript@5.4.5)(vite-plugin-vuetify@2.0.3)(vue@3.4.26(typescript@5.4.5))
     transitivePeerDependencies:
       - supports-color
 
@@ -10593,12 +10593,12 @@ snapshots:
     optionalDependencies:
       typescript: 5.4.5
 
-  vuetify@3.6.0(typescript@5.4.5)(vite-plugin-vuetify@2.0.3)(vue@3.4.26(typescript@5.4.5)):
+  vuetify@3.6.3(typescript@5.4.5)(vite-plugin-vuetify@2.0.3)(vue@3.4.26(typescript@5.4.5)):
     dependencies:
       vue: 3.4.26(typescript@5.4.5)
     optionalDependencies:
       typescript: 5.4.5
-      vite-plugin-vuetify: 2.0.3(vite@5.2.10(@types/node@20.12.8)(sass@1.76.0)(terser@5.30.3))(vue@3.4.26(typescript@5.4.5))(vuetify@3.6.0)
+      vite-plugin-vuetify: 2.0.3(vite@5.2.10(@types/node@20.12.8)(sass@1.76.0)(terser@5.30.3))(vue@3.4.26(typescript@5.4.5))(vuetify@3.6.3)
 
   walker@1.0.8:
     dependencies:
