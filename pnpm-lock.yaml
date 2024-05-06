@@ -41,7 +41,7 @@ importers:
         version: 7.24.5
       '@types/node':
         specifier: ^20.10.0
-        version: 20.12.8
+        version: 20.12.10
       '@types/platform':
         specifier: ^1.3.6
         version: 1.3.6
@@ -50,7 +50,7 @@ importers:
         version: 7.5.8
       '@vitejs/plugin-vue':
         specifier: ^5.0.0
-        version: 5.0.4(vite@5.2.11(@types/node@20.12.8)(sass@1.76.0)(terser@5.30.3))(vue@3.4.26(typescript@5.4.5))
+        version: 5.0.4(vite@5.2.11(@types/node@20.12.10)(sass@1.76.0)(terser@5.31.0))(vue@3.4.26(typescript@5.4.5))
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
@@ -62,16 +62,16 @@ importers:
         version: 5.4.5
       unplugin-fonts:
         specifier: ^1.1.0
-        version: 1.1.1(vite@5.2.11(@types/node@20.12.8)(sass@1.76.0)(terser@5.30.3))
+        version: 1.1.1(vite@5.2.11(@types/node@20.12.10)(sass@1.76.0)(terser@5.31.0))
       unplugin-vue-components:
         specifier: ^0.27.0
         version: 0.27.0(@babel/parser@7.24.5)(rollup@4.17.2)(vue@3.4.26(typescript@5.4.5))
       vite:
         specifier: ^5.0.0
-        version: 5.2.11(@types/node@20.12.8)(sass@1.76.0)(terser@5.30.3)
+        version: 5.2.11(@types/node@20.12.10)(sass@1.76.0)(terser@5.31.0)
       vite-plugin-vuetify:
         specifier: ^2.0.0
-        version: 2.0.3(vite@5.2.11(@types/node@20.12.8)(sass@1.76.0)(terser@5.30.3))(vue@3.4.26(typescript@5.4.5))(vuetify@3.6.3)
+        version: 2.0.3(vite@5.2.11(@types/node@20.12.10)(sass@1.76.0)(terser@5.31.0))(vue@3.4.26(typescript@5.4.5))(vuetify@3.6.3)
       vue-tsc:
         specifier: ^2.0.0
         version: 2.0.16(typescript@5.4.5)
@@ -1644,8 +1644,8 @@ packages:
   '@types/murmurhash3js-revisited@3.0.3':
     resolution: {integrity: sha512-QvlqvYtGBYIDeO8dFdY4djkRubcrc+yTJtBc7n8VZPlJDUS/00A+PssbvERM8f9bYRmcaSEHPZgZojeQj7kzAA==}
 
-  '@types/node@20.12.8':
-    resolution: {integrity: sha512-NU0rJLJnshZWdE/097cdCBbyW1h4hEg0xpovcoAQYHl8dnEyp/NAOiE45pvc+Bd1Dt+2r94v2eGFpQJ4R7g+2w==}
+  '@types/node@20.12.10':
+    resolution: {integrity: sha512-Eem5pH9pmWBHoGAT8Dr5fdc5rYA+4NAovdM4EktRPVAAiJhmWWfQrA0cFhAbOsQdSfIHjAud6YdkbL69+zSKjw==}
 
   '@types/platform@1.3.6':
     resolution: {integrity: sha512-ZmSaqHuvzv+jC232cFoz2QqPUkaj6EvMmCrWcx3WRr7xTPVFCMUOTcOq8m2d+Zw1iKRc1kDiaA+jtNrV0hkVew==}
@@ -1986,8 +1986,8 @@ packages:
     resolution: {integrity: sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==}
     engines: {node: '>=10'}
 
-  caniuse-lite@1.0.30001615:
-    resolution: {integrity: sha512-1IpazM5G3r38meiae0bHRnPhz+CBQ3ZLqbQMtrg+AsTPKAXgW38JNsXkyZ+v8waCsDmPq87lmfun5Q2AGysNEQ==}
+  caniuse-lite@1.0.30001616:
+    resolution: {integrity: sha512-RHVYKov7IcdNjVHJFNY/78RdG4oGVjbayxv8u5IO74Wv7Hlq4PnJE6mo/OjFijjVFNy5ijnCt6H3IIo4t+wfEw==}
 
   catering@2.1.1:
     resolution: {integrity: sha512-K7Qy8O9p76sL3/3m7/zLKbRkyOlSZAgzEaLhyj2mXS8PsCud2Eo4hAb8aLtZqHh0QGqLcb9dlJSu6lHRVENm1w==}
@@ -2294,8 +2294,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.4.754:
-    resolution: {integrity: sha512-7Kr5jUdns5rL/M9wFFmMZAgFDuL2YOnanFH4OI4iFzUqyh3XOL7nAGbSlSMZdzKMIyyTpNSbqZsWG9odwLeKvA==}
+  electron-to-chromium@1.4.756:
+    resolution: {integrity: sha512-RJKZ9+vEBMeiPAvKNWyZjuYyUqMndcP1f335oHqn3BEQbs2NFtVrnK5+6Xg5wSM9TknNNpWghGDUCKGYF+xWXw==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -3224,61 +3224,61 @@ packages:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
     engines: {node: '>= 8'}
 
-  metro-babel-transformer@0.80.8:
-    resolution: {integrity: sha512-TTzNwRZb2xxyv4J/+yqgtDAP2qVqH3sahsnFu6Xv4SkLqzrivtlnyUbaeTdJ9JjtADJUEjCbgbFgUVafrXdR9Q==}
+  metro-babel-transformer@0.80.9:
+    resolution: {integrity: sha512-d76BSm64KZam1nifRZlNJmtwIgAeZhZG3fi3K+EmPOlrR8rDtBxQHDSN3fSGeNB9CirdTyabTMQCkCup6BXFSQ==}
     engines: {node: '>=18'}
 
-  metro-cache-key@0.80.8:
-    resolution: {integrity: sha512-qWKzxrLsRQK5m3oH8ePecqCc+7PEhR03cJE6Z6AxAj0idi99dHOSitTmY0dclXVB9vP2tQIAE8uTd8xkYGk8fA==}
+  metro-cache-key@0.80.9:
+    resolution: {integrity: sha512-hRcYGhEiWIdM87hU0fBlcGr+tHDEAT+7LYNCW89p5JhErFt/QaAkVx4fb5bW3YtXGv5BTV7AspWPERoIb99CXg==}
     engines: {node: '>=18'}
 
-  metro-cache@0.80.8:
-    resolution: {integrity: sha512-5svz+89wSyLo7BxdiPDlwDTgcB9kwhNMfNhiBZPNQQs1vLFXxOkILwQiV5F2EwYT9DEr6OPZ0hnJkZfRQ8lDYQ==}
+  metro-cache@0.80.9:
+    resolution: {integrity: sha512-ujEdSI43QwI+Dj2xuNax8LMo8UgKuXJEdxJkzGPU6iIx42nYa1byQ+aADv/iPh5sh5a//h5FopraW5voXSgm2w==}
     engines: {node: '>=18'}
 
-  metro-config@0.80.8:
-    resolution: {integrity: sha512-VGQJpfJawtwRzGzGXVUoohpIkB0iPom4DmSbAppKfumdhtLA8uVeEPp2GM61kL9hRvdbMhdWA7T+hZFDlo4mJA==}
+  metro-config@0.80.9:
+    resolution: {integrity: sha512-28wW7CqS3eJrunRGnsibWldqgwRP9ywBEf7kg+uzUHkSFJNKPM1K3UNSngHmH0EZjomizqQA2Zi6/y6VdZMolg==}
     engines: {node: '>=18'}
 
-  metro-core@0.80.8:
-    resolution: {integrity: sha512-g6lud55TXeISRTleW6SHuPFZHtYrpwNqbyFIVd9j9Ofrb5IReiHp9Zl8xkAfZQp8v6ZVgyXD7c130QTsCz+vBw==}
+  metro-core@0.80.9:
+    resolution: {integrity: sha512-tbltWQn+XTdULkGdzHIxlxk4SdnKxttvQQV3wpqqFbHDteR4gwCyTR2RyYJvxgU7HELfHtrVbqgqAdlPByUSbg==}
     engines: {node: '>=18'}
 
-  metro-file-map@0.80.8:
-    resolution: {integrity: sha512-eQXMFM9ogTfDs2POq7DT2dnG7rayZcoEgRbHPXvhUWkVwiKkro2ngcBE++ck/7A36Cj5Ljo79SOkYwHaWUDYDw==}
+  metro-file-map@0.80.9:
+    resolution: {integrity: sha512-sBUjVtQMHagItJH/wGU9sn3k2u0nrCl0CdR4SFMO1tksXLKbkigyQx4cbpcyPVOAmGTVuy3jyvBlELaGCAhplQ==}
     engines: {node: '>=18'}
 
-  metro-minify-terser@0.80.8:
-    resolution: {integrity: sha512-y8sUFjVvdeUIINDuW1sejnIjkZfEF+7SmQo0EIpYbWmwh+kq/WMj74yVaBWuqNjirmUp1YNfi3alT67wlbBWBQ==}
+  metro-minify-terser@0.80.9:
+    resolution: {integrity: sha512-FEeCeFbkvvPuhjixZ1FYrXtO0araTpV6UbcnGgDUpH7s7eR5FG/PiJz3TsuuPP/HwCK19cZtQydcA2QrCw446A==}
     engines: {node: '>=18'}
 
-  metro-resolver@0.80.8:
-    resolution: {integrity: sha512-JdtoJkP27GGoZ2HJlEsxs+zO7jnDUCRrmwXJozTlIuzLHMRrxgIRRby9fTCbMhaxq+iA9c+wzm3iFb4NhPmLbQ==}
+  metro-resolver@0.80.9:
+    resolution: {integrity: sha512-wAPIjkN59BQN6gocVsAvvpZ1+LQkkqUaswlT++cJafE/e54GoVkMNCmrR4BsgQHr9DknZ5Um/nKueeN7kaEz9w==}
     engines: {node: '>=18'}
 
-  metro-runtime@0.80.8:
-    resolution: {integrity: sha512-2oScjfv6Yb79PelU1+p8SVrCMW9ZjgEiipxq7jMRn8mbbtWzyv3g8Mkwr+KwOoDFI/61hYPUbY8cUnu278+x1g==}
+  metro-runtime@0.80.9:
+    resolution: {integrity: sha512-8PTVIgrVcyU+X/rVCy/9yxNlvXsBCk5JwwkbAm/Dm+Abo6NBGtNjWF0M1Xo/NWCb4phamNWcD7cHdR91HhbJvg==}
     engines: {node: '>=18'}
 
-  metro-source-map@0.80.8:
-    resolution: {integrity: sha512-+OVISBkPNxjD4eEKhblRpBf463nTMk3KMEeYS8Z4xM/z3qujGJGSsWUGRtH27+c6zElaSGtZFiDMshEb8mMKQg==}
+  metro-source-map@0.80.9:
+    resolution: {integrity: sha512-RMn+XS4VTJIwMPOUSj61xlxgBvPeY4G6s5uIn6kt6HB6A/k9ekhr65UkkDD7WzHYs3a9o869qU8tvOZvqeQzgw==}
     engines: {node: '>=18'}
 
-  metro-symbolicate@0.80.8:
-    resolution: {integrity: sha512-nwhYySk79jQhwjL9QmOUo4wS+/0Au9joEryDWw7uj4kz2yvw1uBjwmlql3BprQCBzRdB3fcqOP8kO8Es+vE31g==}
+  metro-symbolicate@0.80.9:
+    resolution: {integrity: sha512-Ykae12rdqSs98hg41RKEToojuIW85wNdmSe/eHUgMkzbvCFNVgcC0w3dKZEhSsqQOXapXRlLtHkaHLil0UD/EA==}
     engines: {node: '>=18'}
     hasBin: true
 
-  metro-transform-plugins@0.80.8:
-    resolution: {integrity: sha512-sSu8VPL9Od7w98MftCOkQ1UDeySWbsIAS5I54rW22BVpPnI3fQ42srvqMLaJUQPjLehUanq8St6OMBCBgH/UWw==}
+  metro-transform-plugins@0.80.9:
+    resolution: {integrity: sha512-UlDk/uc8UdfLNJhPbF3tvwajyuuygBcyp+yBuS/q0z3QSuN/EbLllY3rK8OTD9n4h00qZ/qgxGv/lMFJkwP4vg==}
     engines: {node: '>=18'}
 
-  metro-transform-worker@0.80.8:
-    resolution: {integrity: sha512-+4FG3TQk3BTbNqGkFb2uCaxYTfsbuFOCKMMURbwu0ehCP8ZJuTUramkaNZoATS49NSAkRgUltgmBa4YaKZ5mqw==}
+  metro-transform-worker@0.80.9:
+    resolution: {integrity: sha512-c/IrzMUVnI0hSVVit4TXzt3A1GiUltGVlzCmLJWxNrBGHGrJhvgePj38+GXl1Xf4Fd4vx6qLUkKMQ3ux73bFLQ==}
     engines: {node: '>=18'}
 
-  metro@0.80.8:
-    resolution: {integrity: sha512-in7S0W11mg+RNmcXw+2d9S3zBGmCARDxIwoXJAmLUQOQoYsRP3cpGzyJtc7WOw8+FXfpgXvceD0u+PZIHXEL7g==}
+  metro@0.80.9:
+    resolution: {integrity: sha512-Bc57Xf3GO2Xe4UWQsBj/oW6YfLPABEu8jfDVDiNmJvoQW4CO34oDPuYKe4KlXzXhcuNsqOtSxpbjCRRVjhhREg==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -3546,8 +3546,8 @@ packages:
     resolution: {integrity: sha512-4jbtZXNAsfZbAHiiqjLPBiCl16dES1zI4Hpzzxw61Tk+loF+sBDBKx1ICKKKwIqQ7M0mFn1TmkN7euSncWgHiQ==}
     engines: {node: '>=0.10.0'}
 
-  ob1@0.80.8:
-    resolution: {integrity: sha512-QHJQk/lXMmAW8I7AIM3in1MSlwe1umR72Chhi8B7Xnq6mzjhBKkA6Fy/zAhQnGkA4S912EPCEvTij5yh+EQTAA==}
+  ob1@0.80.9:
+    resolution: {integrity: sha512-v9yOxowkZbxWhKOaaTyLjIm1aLy4ebMNcSn4NYJKOAI/Qv+SkfEfszpLr2GIxsccmb2Y2HA9qtsqiIJ80ucpVA==}
     engines: {node: '>=18'}
 
   object-assign@4.1.1:
@@ -4248,8 +4248,8 @@ packages:
     resolution: {integrity: sha512-s0ZZzd0BzYv5tLSptZooSjK8oj6C+c19p7Vqta9+6NPOf7r+fxq0cJe6/oN4LTC79sy5NY8ucOJNgwsKCSbfqg==}
     engines: {node: '>=6.0.0'}
 
-  terser@5.30.3:
-    resolution: {integrity: sha512-STdUgOUx8rLbMGO9IOwHLpCqolkDITFFQSMYYwKE1N2lY6MVSaeoi10z/EhWxRc6ybqoVmKSkhKYH/XUpl7vSA==}
+  terser@5.31.0:
+    resolution: {integrity: sha512-Q1JFAoUKE5IMfI4Z/lkE/E6+SwgzO+x4tq4v1AyBLRj8VSYvRO6A/rQrPg1yud4g0En9EKI1TvFRF2tQFcoUkg==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -4391,8 +4391,8 @@ packages:
     resolution: {integrity: sha512-1uEe95xksV1O0CYKXo8vQvN1JEbtJp7lb7C5U9HMsIp6IVwntkH/oNUzyVNQSd4S1sYk2FpSSW44FqMc8qee5w==}
     engines: {node: '>=4'}
 
-  update-browserslist-db@1.0.14:
-    resolution: {integrity: sha512-JixKH8GR2pWYshIPUg/NujK3JO7JiqEEUiNArE86NQyrgUuZeTlZQN3xuS/yiV5Kb48ev9K6RqNkaJjXsdg7Jw==}
+  update-browserslist-db@1.0.15:
+    resolution: {integrity: sha512-K9HWH62x3/EalU1U6sjSZiylm9C8tgq2mSvshZpqc7QE69RaA2qjhkW2HlNA0tFpEbtyFz7HTqbSdN4MSwUodA==}
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
@@ -6062,14 +6062,14 @@ snapshots:
     dependencies:
       '@jest/fake-timers': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.12.8
+      '@types/node': 20.12.10
       jest-mock: 29.7.0
 
   '@jest/fake-timers@29.7.0':
     dependencies:
       '@jest/types': 29.6.3
       '@sinonjs/fake-timers': 10.3.0
-      '@types/node': 20.12.8
+      '@types/node': 20.12.10
       jest-message-util: 29.7.0
       jest-mock: 29.7.0
       jest-util: 29.7.0
@@ -6082,7 +6082,7 @@ snapshots:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 20.12.8
+      '@types/node': 20.12.10
       '@types/yargs': 15.0.19
       chalk: 4.1.2
 
@@ -6091,7 +6091,7 @@ snapshots:
       '@jest/schemas': 29.6.3
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 20.12.8
+      '@types/node': 20.12.10
       '@types/yargs': 17.0.32
       chalk: 4.1.2
 
@@ -7141,9 +7141,9 @@ snapshots:
       '@react-native/metro-babel-transformer': 0.73.15(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))
       chalk: 4.1.2
       execa: 5.1.1
-      metro: 0.80.8
-      metro-config: 0.80.8
-      metro-core: 0.80.8
+      metro: 0.80.9
+      metro-config: 0.80.9
+      metro-core: 0.80.9
       node-fetch: 2.7.0
       readline: 1.3.0
     transitivePeerDependencies:
@@ -7273,7 +7273,7 @@ snapshots:
 
   '@types/dns-packet@5.6.5':
     dependencies:
-      '@types/node': 20.12.8
+      '@types/node': 20.12.10
 
   '@types/estree@1.0.5': {}
 
@@ -7296,11 +7296,11 @@ snapshots:
   '@types/multicast-dns@7.2.4':
     dependencies:
       '@types/dns-packet': 5.6.5
-      '@types/node': 20.12.8
+      '@types/node': 20.12.10
 
   '@types/murmurhash3js-revisited@3.0.3': {}
 
-  '@types/node@20.12.8':
+  '@types/node@20.12.10':
     dependencies:
       undici-types: 5.26.5
 
@@ -7320,7 +7320,7 @@ snapshots:
 
   '@types/ws@8.5.10':
     dependencies:
-      '@types/node': 20.12.8
+      '@types/node': 20.12.10
 
   '@types/yargs-parser@21.0.3': {}
 
@@ -7334,9 +7334,9 @@ snapshots:
 
   '@vascosantos/moving-average@1.1.0': {}
 
-  '@vitejs/plugin-vue@5.0.4(vite@5.2.11(@types/node@20.12.8)(sass@1.76.0)(terser@5.30.3))(vue@3.4.26(typescript@5.4.5))':
+  '@vitejs/plugin-vue@5.0.4(vite@5.2.11(@types/node@20.12.10)(sass@1.76.0)(terser@5.31.0))(vue@3.4.26(typescript@5.4.5))':
     dependencies:
-      vite: 5.2.11(@types/node@20.12.8)(sass@1.76.0)(terser@5.30.3)
+      vite: 5.2.11(@types/node@20.12.10)(sass@1.76.0)(terser@5.31.0)
       vue: 3.4.26(typescript@5.4.5)
 
   '@volar/language-core@2.2.0':
@@ -7655,10 +7655,10 @@ snapshots:
 
   browserslist@4.23.0:
     dependencies:
-      caniuse-lite: 1.0.30001615
-      electron-to-chromium: 1.4.754
+      caniuse-lite: 1.0.30001616
+      electron-to-chromium: 1.4.756
       node-releases: 2.0.14
-      update-browserslist-db: 1.0.14(browserslist@4.23.0)
+      update-browserslist-db: 1.0.15(browserslist@4.23.0)
 
   bs58@5.0.0:
     dependencies:
@@ -7704,7 +7704,7 @@ snapshots:
 
   camelcase@6.3.0: {}
 
-  caniuse-lite@1.0.30001615: {}
+  caniuse-lite@1.0.30001616: {}
 
   catering@2.1.1: {}
 
@@ -7739,7 +7739,7 @@ snapshots:
 
   chrome-launcher@0.15.2:
     dependencies:
-      '@types/node': 20.12.8
+      '@types/node': 20.12.10
       escape-string-regexp: 4.0.0
       is-wsl: 2.2.0
       lighthouse-logger: 1.4.2
@@ -7748,7 +7748,7 @@ snapshots:
 
   chromium-edge-launcher@1.0.0:
     dependencies:
-      '@types/node': 20.12.8
+      '@types/node': 20.12.10
       escape-string-regexp: 4.0.0
       is-wsl: 2.2.0
       lighthouse-logger: 1.4.2
@@ -8028,7 +8028,7 @@ snapshots:
     dependencies:
       jake: 10.8.7
 
-  electron-to-chromium@1.4.754: {}
+  electron-to-chromium@1.4.756: {}
 
   emoji-regex@8.0.0: {}
 
@@ -8895,7 +8895,7 @@ snapshots:
       '@jest/environment': 29.7.0
       '@jest/fake-timers': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.12.8
+      '@types/node': 20.12.10
       jest-mock: 29.7.0
       jest-util: 29.7.0
 
@@ -8916,13 +8916,13 @@ snapshots:
   jest-mock@29.7.0:
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.12.8
+      '@types/node': 20.12.10
       jest-util: 29.7.0
 
   jest-util@29.7.0:
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.12.8
+      '@types/node': 20.12.10
       chalk: 4.1.2
       ci-info: 3.9.0
       graceful-fs: 4.2.11
@@ -8939,7 +8939,7 @@ snapshots:
 
   jest-worker@29.7.0:
     dependencies:
-      '@types/node': 20.12.8
+      '@types/node': 20.12.10
       jest-util: 29.7.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
@@ -9159,7 +9159,7 @@ snapshots:
 
   merge2@1.4.1: {}
 
-  metro-babel-transformer@0.80.8:
+  metro-babel-transformer@0.80.9:
     dependencies:
       '@babel/core': 7.24.5
       hermes-parser: 0.20.1
@@ -9167,34 +9167,34 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  metro-cache-key@0.80.8: {}
+  metro-cache-key@0.80.9: {}
 
-  metro-cache@0.80.8:
+  metro-cache@0.80.9:
     dependencies:
-      metro-core: 0.80.8
+      metro-core: 0.80.9
       rimraf: 3.0.2
 
-  metro-config@0.80.8:
+  metro-config@0.80.9:
     dependencies:
       connect: 3.7.0
       cosmiconfig: 5.2.1
       jest-validate: 29.7.0
-      metro: 0.80.8
-      metro-cache: 0.80.8
-      metro-core: 0.80.8
-      metro-runtime: 0.80.8
+      metro: 0.80.9
+      metro-cache: 0.80.9
+      metro-core: 0.80.9
+      metro-runtime: 0.80.9
     transitivePeerDependencies:
       - bufferutil
       - encoding
       - supports-color
       - utf-8-validate
 
-  metro-core@0.80.8:
+  metro-core@0.80.9:
     dependencies:
       lodash.throttle: 4.1.1
-      metro-resolver: 0.80.8
+      metro-resolver: 0.80.9
 
-  metro-file-map@0.80.8:
+  metro-file-map@0.80.9:
     dependencies:
       anymatch: 3.1.3
       debug: 2.6.9
@@ -9211,33 +9211,33 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  metro-minify-terser@0.80.8:
+  metro-minify-terser@0.80.9:
     dependencies:
-      terser: 5.30.3
+      terser: 5.31.0
 
-  metro-resolver@0.80.8: {}
+  metro-resolver@0.80.9: {}
 
-  metro-runtime@0.80.8:
+  metro-runtime@0.80.9:
     dependencies:
       '@babel/runtime': 7.24.5
 
-  metro-source-map@0.80.8:
+  metro-source-map@0.80.9:
     dependencies:
       '@babel/traverse': 7.24.5
       '@babel/types': 7.24.5
       invariant: 2.2.4
-      metro-symbolicate: 0.80.8
+      metro-symbolicate: 0.80.9
       nullthrows: 1.1.1
-      ob1: 0.80.8
+      ob1: 0.80.9
       source-map: 0.5.7
       vlq: 1.0.1
     transitivePeerDependencies:
       - supports-color
 
-  metro-symbolicate@0.80.8:
+  metro-symbolicate@0.80.9:
     dependencies:
       invariant: 2.2.4
-      metro-source-map: 0.80.8
+      metro-source-map: 0.80.9
       nullthrows: 1.1.1
       source-map: 0.5.7
       through2: 2.0.5
@@ -9245,7 +9245,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  metro-transform-plugins@0.80.8:
+  metro-transform-plugins@0.80.9:
     dependencies:
       '@babel/core': 7.24.5
       '@babel/generator': 7.24.5
@@ -9255,19 +9255,19 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  metro-transform-worker@0.80.8:
+  metro-transform-worker@0.80.9:
     dependencies:
       '@babel/core': 7.24.5
       '@babel/generator': 7.24.5
       '@babel/parser': 7.24.5
       '@babel/types': 7.24.5
-      metro: 0.80.8
-      metro-babel-transformer: 0.80.8
-      metro-cache: 0.80.8
-      metro-cache-key: 0.80.8
-      metro-minify-terser: 0.80.8
-      metro-source-map: 0.80.8
-      metro-transform-plugins: 0.80.8
+      metro: 0.80.9
+      metro-babel-transformer: 0.80.9
+      metro-cache: 0.80.9
+      metro-cache-key: 0.80.9
+      metro-minify-terser: 0.80.9
+      metro-source-map: 0.80.9
+      metro-transform-plugins: 0.80.9
       nullthrows: 1.1.1
     transitivePeerDependencies:
       - bufferutil
@@ -9275,7 +9275,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  metro@0.80.8:
+  metro@0.80.9:
     dependencies:
       '@babel/code-frame': 7.24.2
       '@babel/core': 7.24.5
@@ -9298,18 +9298,18 @@ snapshots:
       jest-worker: 29.7.0
       jsc-safe-url: 0.2.4
       lodash.throttle: 4.1.1
-      metro-babel-transformer: 0.80.8
-      metro-cache: 0.80.8
-      metro-cache-key: 0.80.8
-      metro-config: 0.80.8
-      metro-core: 0.80.8
-      metro-file-map: 0.80.8
-      metro-resolver: 0.80.8
-      metro-runtime: 0.80.8
-      metro-source-map: 0.80.8
-      metro-symbolicate: 0.80.8
-      metro-transform-plugins: 0.80.8
-      metro-transform-worker: 0.80.8
+      metro-babel-transformer: 0.80.9
+      metro-cache: 0.80.9
+      metro-cache-key: 0.80.9
+      metro-config: 0.80.9
+      metro-core: 0.80.9
+      metro-file-map: 0.80.9
+      metro-resolver: 0.80.9
+      metro-runtime: 0.80.9
+      metro-source-map: 0.80.9
+      metro-symbolicate: 0.80.9
+      metro-transform-plugins: 0.80.9
+      metro-transform-worker: 0.80.9
       mime-types: 2.1.35
       node-fetch: 2.7.0
       nullthrows: 1.1.1
@@ -9569,7 +9569,7 @@ snapshots:
 
   number-is-nan@1.0.1: {}
 
-  ob1@0.80.8: {}
+  ob1@0.80.9: {}
 
   object-assign@4.1.1: {}
 
@@ -9830,7 +9830,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 20.12.8
+      '@types/node': 20.12.10
       long: 5.2.3
 
   protons-runtime@5.4.0:
@@ -9933,8 +9933,8 @@ snapshots:
       jest-environment-node: 29.7.0
       jsc-android: 250231.0.0
       memoize-one: 5.2.1
-      metro-runtime: 0.80.8
-      metro-source-map: 0.80.8
+      metro-runtime: 0.80.9
+      metro-source-map: 0.80.9
       mkdirp: 0.5.6
       nullthrows: 1.1.1
       pretty-format: 26.6.2
@@ -10375,7 +10375,7 @@ snapshots:
     dependencies:
       rimraf: 2.6.3
 
-  terser@5.30.3:
+  terser@5.31.0:
     dependencies:
       '@jridgewell/source-map': 0.3.6
       acorn: 8.11.3
@@ -10469,11 +10469,11 @@ snapshots:
 
   unpipe@1.0.0: {}
 
-  unplugin-fonts@1.1.1(vite@5.2.11(@types/node@20.12.8)(sass@1.76.0)(terser@5.30.3)):
+  unplugin-fonts@1.1.1(vite@5.2.11(@types/node@20.12.10)(sass@1.76.0)(terser@5.31.0)):
     dependencies:
       fast-glob: 3.3.2
       unplugin: 1.7.1
-      vite: 5.2.11(@types/node@20.12.8)(sass@1.76.0)(terser@5.30.3)
+      vite: 5.2.11(@types/node@20.12.10)(sass@1.76.0)(terser@5.31.0)
 
   unplugin-vue-components@0.27.0(@babel/parser@7.24.5)(rollup@4.17.2)(vue@3.4.26(typescript@5.4.5)):
     dependencies:
@@ -10510,7 +10510,7 @@ snapshots:
 
   upath@2.0.1: {}
 
-  update-browserslist-db@1.0.14(browserslist@4.23.0):
+  update-browserslist-db@1.0.15(browserslist@4.23.0):
     dependencies:
       browserslist: 4.23.0
       escalade: 3.1.2
@@ -10542,27 +10542,27 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite-plugin-vuetify@2.0.3(vite@5.2.11(@types/node@20.12.8)(sass@1.76.0)(terser@5.30.3))(vue@3.4.26(typescript@5.4.5))(vuetify@3.6.3):
+  vite-plugin-vuetify@2.0.3(vite@5.2.11(@types/node@20.12.10)(sass@1.76.0)(terser@5.31.0))(vue@3.4.26(typescript@5.4.5))(vuetify@3.6.3):
     dependencies:
       '@vuetify/loader-shared': 2.0.3(vue@3.4.26(typescript@5.4.5))(vuetify@3.6.3(typescript@5.4.5)(vite-plugin-vuetify@2.0.3)(vue@3.4.26(typescript@5.4.5)))
       debug: 4.3.4
       upath: 2.0.1
-      vite: 5.2.11(@types/node@20.12.8)(sass@1.76.0)(terser@5.30.3)
+      vite: 5.2.11(@types/node@20.12.10)(sass@1.76.0)(terser@5.31.0)
       vue: 3.4.26(typescript@5.4.5)
       vuetify: 3.6.3(typescript@5.4.5)(vite-plugin-vuetify@2.0.3)(vue@3.4.26(typescript@5.4.5))
     transitivePeerDependencies:
       - supports-color
 
-  vite@5.2.11(@types/node@20.12.8)(sass@1.76.0)(terser@5.30.3):
+  vite@5.2.11(@types/node@20.12.10)(sass@1.76.0)(terser@5.31.0):
     dependencies:
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.17.2
     optionalDependencies:
-      '@types/node': 20.12.8
+      '@types/node': 20.12.10
       fsevents: 2.3.3
       sass: 1.76.0
-      terser: 5.30.3
+      terser: 5.31.0
 
   vlq@1.0.1: {}
 
@@ -10598,7 +10598,7 @@ snapshots:
       vue: 3.4.26(typescript@5.4.5)
     optionalDependencies:
       typescript: 5.4.5
-      vite-plugin-vuetify: 2.0.3(vite@5.2.11(@types/node@20.12.8)(sass@1.76.0)(terser@5.30.3))(vue@3.4.26(typescript@5.4.5))(vuetify@3.6.3)
+      vite-plugin-vuetify: 2.0.3(vite@5.2.11(@types/node@20.12.10)(sass@1.76.0)(terser@5.31.0))(vue@3.4.26(typescript@5.4.5))(vuetify@3.6.3)
 
   walker@1.0.8:
     dependencies:
