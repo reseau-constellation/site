@@ -41,7 +41,7 @@ importers:
         version: 7.24.9
       '@types/node':
         specifier: ^20.10.0
-        version: 20.14.10
+        version: 20.14.11
       '@types/platform':
         specifier: ^1.3.6
         version: 1.3.6
@@ -50,7 +50,7 @@ importers:
         version: 7.5.8
       '@vitejs/plugin-vue':
         specifier: ^5.0.0
-        version: 5.0.5(vite@5.3.4(@types/node@20.14.10)(sass@1.77.8)(terser@5.31.2))(vue@3.4.31(typescript@5.5.3))
+        version: 5.0.5(vite@5.3.4(@types/node@20.14.11)(sass@1.77.8)(terser@5.31.3))(vue@3.4.31(typescript@5.5.3))
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
@@ -62,16 +62,16 @@ importers:
         version: 5.5.3
       unplugin-fonts:
         specifier: ^1.1.0
-        version: 1.1.1(vite@5.3.4(@types/node@20.14.10)(sass@1.77.8)(terser@5.31.2))
+        version: 1.1.1(vite@5.3.4(@types/node@20.14.11)(sass@1.77.8)(terser@5.31.3))
       unplugin-vue-components:
         specifier: ^0.27.0
         version: 0.27.3(@babel/parser@7.24.8)(rollup@4.18.1)(vue@3.4.31(typescript@5.5.3))
       vite:
         specifier: ^5.0.0
-        version: 5.3.4(@types/node@20.14.10)(sass@1.77.8)(terser@5.31.2)
+        version: 5.3.4(@types/node@20.14.11)(sass@1.77.8)(terser@5.31.3)
       vite-plugin-vuetify:
         specifier: ^2.0.0
-        version: 2.0.3(vite@5.3.4(@types/node@20.14.10)(sass@1.77.8)(terser@5.31.2))(vue@3.4.31(typescript@5.5.3))(vuetify@3.6.12)
+        version: 2.0.3(vite@5.3.4(@types/node@20.14.11)(sass@1.77.8)(terser@5.31.3))(vue@3.4.31(typescript@5.5.3))(vuetify@3.6.12)
       vue-tsc:
         specifier: ^2.0.0
         version: 2.0.26(typescript@5.5.3)
@@ -1611,8 +1611,8 @@ packages:
   '@types/murmurhash3js-revisited@3.0.3':
     resolution: {integrity: sha512-QvlqvYtGBYIDeO8dFdY4djkRubcrc+yTJtBc7n8VZPlJDUS/00A+PssbvERM8f9bYRmcaSEHPZgZojeQj7kzAA==}
 
-  '@types/node@20.14.10':
-    resolution: {integrity: sha512-MdiXf+nDuMvY0gJKxyfZ7/6UFsETO7mGKF54MVD/ekJS6HdFtpZFBgrh6Pseu64XTb2MLyFPlbW6hj8HYRQNOQ==}
+  '@types/node@20.14.11':
+    resolution: {integrity: sha512-kprQpL8MMeszbz6ojB5/tU8PLN4kesnN8Gjzw349rDlNgsSzg90lAVj3llK99Dh7JON+t9AuscPPFW6mPbTnSA==}
 
   '@types/platform@1.3.6':
     resolution: {integrity: sha512-ZmSaqHuvzv+jC232cFoz2QqPUkaj6EvMmCrWcx3WRr7xTPVFCMUOTcOq8m2d+Zw1iKRc1kDiaA+jtNrV0hkVew==}
@@ -4057,8 +4057,8 @@ packages:
     resolution: {integrity: sha512-s0ZZzd0BzYv5tLSptZooSjK8oj6C+c19p7Vqta9+6NPOf7r+fxq0cJe6/oN4LTC79sy5NY8ucOJNgwsKCSbfqg==}
     engines: {node: '>=6.0.0'}
 
-  terser@5.31.2:
-    resolution: {integrity: sha512-LGyRZVFm/QElZHy/CPr/O4eNZOZIzsrQ92y4v9UJe/pFJjypje2yI3C2FmPtvUEnhadlSbmG2nXtdcjHOjCfxw==}
+  terser@5.31.3:
+    resolution: {integrity: sha512-pAfYn3NIZLyZpa83ZKigvj6Rn9c/vd5KfYGX7cN1mnzqgDcxWvrU5ZtAfIKhEXz9nRecw4z3LXkjaq96/qZqAA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -5844,14 +5844,14 @@ snapshots:
     dependencies:
       '@jest/fake-timers': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.14.10
+      '@types/node': 20.14.11
       jest-mock: 29.7.0
 
   '@jest/fake-timers@29.7.0':
     dependencies:
       '@jest/types': 29.6.3
       '@sinonjs/fake-timers': 10.3.0
-      '@types/node': 20.14.10
+      '@types/node': 20.14.11
       jest-message-util: 29.7.0
       jest-mock: 29.7.0
       jest-util: 29.7.0
@@ -5864,7 +5864,7 @@ snapshots:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 20.14.10
+      '@types/node': 20.14.11
       '@types/yargs': 15.0.19
       chalk: 4.1.2
 
@@ -5873,7 +5873,7 @@ snapshots:
       '@jest/schemas': 29.6.3
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 20.14.10
+      '@types/node': 20.14.11
       '@types/yargs': 17.0.32
       chalk: 4.1.2
 
@@ -7024,7 +7024,7 @@ snapshots:
 
   '@types/dns-packet@5.6.5':
     dependencies:
-      '@types/node': 20.14.10
+      '@types/node': 20.14.11
 
   '@types/estree@1.0.5': {}
 
@@ -7047,11 +7047,11 @@ snapshots:
   '@types/multicast-dns@7.2.4':
     dependencies:
       '@types/dns-packet': 5.6.5
-      '@types/node': 20.14.10
+      '@types/node': 20.14.11
 
   '@types/murmurhash3js-revisited@3.0.3': {}
 
-  '@types/node@20.14.10':
+  '@types/node@20.14.11':
     dependencies:
       undici-types: 5.26.5
 
@@ -7069,7 +7069,7 @@ snapshots:
 
   '@types/ws@8.5.10':
     dependencies:
-      '@types/node': 20.14.10
+      '@types/node': 20.14.11
 
   '@types/yargs-parser@21.0.3': {}
 
@@ -7083,9 +7083,9 @@ snapshots:
 
   '@vascosantos/moving-average@1.1.0': {}
 
-  '@vitejs/plugin-vue@5.0.5(vite@5.3.4(@types/node@20.14.10)(sass@1.77.8)(terser@5.31.2))(vue@3.4.31(typescript@5.5.3))':
+  '@vitejs/plugin-vue@5.0.5(vite@5.3.4(@types/node@20.14.11)(sass@1.77.8)(terser@5.31.3))(vue@3.4.31(typescript@5.5.3))':
     dependencies:
-      vite: 5.3.4(@types/node@20.14.10)(sass@1.77.8)(terser@5.31.2)
+      vite: 5.3.4(@types/node@20.14.11)(sass@1.77.8)(terser@5.31.3)
       vue: 3.4.31(typescript@5.5.3)
 
   '@volar/language-core@2.4.0-alpha.15':
@@ -7480,7 +7480,7 @@ snapshots:
 
   chrome-launcher@0.15.2:
     dependencies:
-      '@types/node': 20.14.10
+      '@types/node': 20.14.11
       escape-string-regexp: 4.0.0
       is-wsl: 2.2.0
       lighthouse-logger: 1.4.2
@@ -7489,7 +7489,7 @@ snapshots:
 
   chromium-edge-launcher@1.0.0:
     dependencies:
-      '@types/node': 20.14.10
+      '@types/node': 20.14.11
       escape-string-regexp: 4.0.0
       is-wsl: 2.2.0
       lighthouse-logger: 1.4.2
@@ -8582,7 +8582,7 @@ snapshots:
       '@jest/environment': 29.7.0
       '@jest/fake-timers': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.14.10
+      '@types/node': 20.14.11
       jest-mock: 29.7.0
       jest-util: 29.7.0
 
@@ -8603,13 +8603,13 @@ snapshots:
   jest-mock@29.7.0:
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.14.10
+      '@types/node': 20.14.11
       jest-util: 29.7.0
 
   jest-util@29.7.0:
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.14.10
+      '@types/node': 20.14.11
       chalk: 4.1.2
       ci-info: 3.9.0
       graceful-fs: 4.2.11
@@ -8626,7 +8626,7 @@ snapshots:
 
   jest-worker@29.7.0:
     dependencies:
-      '@types/node': 20.14.10
+      '@types/node': 20.14.11
       jest-util: 29.7.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
@@ -8895,7 +8895,7 @@ snapshots:
 
   metro-minify-terser@0.80.9:
     dependencies:
-      terser: 5.31.2
+      terser: 5.31.3
 
   metro-resolver@0.80.9: {}
 
@@ -9433,7 +9433,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 20.14.10
+      '@types/node': 20.14.11
       long: 5.2.3
 
   protons-runtime@5.4.0:
@@ -9946,7 +9946,7 @@ snapshots:
     dependencies:
       rimraf: 2.6.3
 
-  terser@5.31.2:
+  terser@5.31.3:
     dependencies:
       '@jridgewell/source-map': 0.3.6
       acorn: 8.12.1
@@ -10036,11 +10036,11 @@ snapshots:
 
   unpipe@1.0.0: {}
 
-  unplugin-fonts@1.1.1(vite@5.3.4(@types/node@20.14.10)(sass@1.77.8)(terser@5.31.2)):
+  unplugin-fonts@1.1.1(vite@5.3.4(@types/node@20.14.11)(sass@1.77.8)(terser@5.31.3)):
     dependencies:
       fast-glob: 3.3.2
       unplugin: 1.7.1
-      vite: 5.3.4(@types/node@20.14.10)(sass@1.77.8)(terser@5.31.2)
+      vite: 5.3.4(@types/node@20.14.11)(sass@1.77.8)(terser@5.31.3)
 
   unplugin-vue-components@0.27.3(@babel/parser@7.24.8)(rollup@4.18.1)(vue@3.4.31(typescript@5.5.3)):
     dependencies:
@@ -10111,27 +10111,27 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite-plugin-vuetify@2.0.3(vite@5.3.4(@types/node@20.14.10)(sass@1.77.8)(terser@5.31.2))(vue@3.4.31(typescript@5.5.3))(vuetify@3.6.12):
+  vite-plugin-vuetify@2.0.3(vite@5.3.4(@types/node@20.14.11)(sass@1.77.8)(terser@5.31.3))(vue@3.4.31(typescript@5.5.3))(vuetify@3.6.12):
     dependencies:
       '@vuetify/loader-shared': 2.0.3(vue@3.4.31(typescript@5.5.3))(vuetify@3.6.12(typescript@5.5.3)(vite-plugin-vuetify@2.0.3)(vue@3.4.31(typescript@5.5.3)))
       debug: 4.3.4
       upath: 2.0.1
-      vite: 5.3.4(@types/node@20.14.10)(sass@1.77.8)(terser@5.31.2)
+      vite: 5.3.4(@types/node@20.14.11)(sass@1.77.8)(terser@5.31.3)
       vue: 3.4.31(typescript@5.5.3)
       vuetify: 3.6.12(typescript@5.5.3)(vite-plugin-vuetify@2.0.3)(vue@3.4.31(typescript@5.5.3))
     transitivePeerDependencies:
       - supports-color
 
-  vite@5.3.4(@types/node@20.14.10)(sass@1.77.8)(terser@5.31.2):
+  vite@5.3.4(@types/node@20.14.11)(sass@1.77.8)(terser@5.31.3):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.39
       rollup: 4.18.1
     optionalDependencies:
-      '@types/node': 20.14.10
+      '@types/node': 20.14.11
       fsevents: 2.3.3
       sass: 1.77.8
-      terser: 5.31.2
+      terser: 5.31.3
 
   vlq@1.0.1: {}
 
@@ -10169,7 +10169,7 @@ snapshots:
       vue: 3.4.31(typescript@5.5.3)
     optionalDependencies:
       typescript: 5.5.3
-      vite-plugin-vuetify: 2.0.3(vite@5.3.4(@types/node@20.14.10)(sass@1.77.8)(terser@5.31.2))(vue@3.4.31(typescript@5.5.3))(vuetify@3.6.12)
+      vite-plugin-vuetify: 2.0.3(vite@5.3.4(@types/node@20.14.11)(sass@1.77.8)(terser@5.31.3))(vue@3.4.31(typescript@5.5.3))(vuetify@3.6.12)
 
   walker@1.0.8:
     dependencies:
