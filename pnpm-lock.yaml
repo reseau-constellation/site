@@ -50,7 +50,7 @@ importers:
         version: 7.5.8
       '@vitejs/plugin-vue':
         specifier: ^5.0.0
-        version: 5.1.1(vite@5.3.5(@types/node@20.14.13)(sass@1.77.8)(terser@5.31.3))(vue@3.4.35(typescript@5.5.4))
+        version: 5.1.2(vite@5.3.5(@types/node@20.14.13)(sass@1.77.8)(terser@5.31.3))(vue@3.4.35(typescript@5.5.4))
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
@@ -1632,8 +1632,8 @@ packages:
   '@vascosantos/moving-average@1.1.0':
     resolution: {integrity: sha512-MVEJ4vWAPNbrGLjz7ITnHYg+YXZ6ijAqtH5/cHwSoCpbvuJ98aLXwFfPKAUfZpJMQR5uXB58UJajbY130IRF/w==}
 
-  '@vitejs/plugin-vue@5.1.1':
-    resolution: {integrity: sha512-sDckXxlHpMsjRQbAH9WanangrfrblsOd3pNifePs+FOHjJg1jfWq5L/P0PsBRndEt3nmdUnmvieP8ULDeX5AvA==}
+  '@vitejs/plugin-vue@5.1.2':
+    resolution: {integrity: sha512-nY9IwH12qeiJqumTCLJLE7IiNx7HZ39cbHaysEUd+Myvbz9KAqd2yq+U01Kab1R/H1BmiyM2ShTYlNH32Fzo3A==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
       vite: ^5.0.0
@@ -1942,8 +1942,8 @@ packages:
     resolution: {integrity: sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==}
     engines: {node: '>=10'}
 
-  caniuse-lite@1.0.30001645:
-    resolution: {integrity: sha512-GFtY2+qt91kzyMk6j48dJcwJVq5uTkk71XxE3RtScx7XWRLsO7bU44LOFkOZYR8w9YMS0UhPSYpN/6rAMImmLw==}
+  caniuse-lite@1.0.30001646:
+    resolution: {integrity: sha512-dRg00gudiBDDTmUhClSdv3hqRfpbOnU28IpI1T6PBTLWa+kOj0681C8uML3PifYfREuBrVjDGhL3adYpBT6spw==}
 
   catering@2.1.1:
     resolution: {integrity: sha512-K7Qy8O9p76sL3/3m7/zLKbRkyOlSZAgzEaLhyj2mXS8PsCud2Eo4hAb8aLtZqHh0QGqLcb9dlJSu6lHRVENm1w==}
@@ -7073,7 +7073,7 @@ snapshots:
 
   '@vascosantos/moving-average@1.1.0': {}
 
-  '@vitejs/plugin-vue@5.1.1(vite@5.3.5(@types/node@20.14.13)(sass@1.77.8)(terser@5.31.3))(vue@3.4.35(typescript@5.5.4))':
+  '@vitejs/plugin-vue@5.1.2(vite@5.3.5(@types/node@20.14.13)(sass@1.77.8)(terser@5.31.3))(vue@3.4.35(typescript@5.5.4))':
     dependencies:
       vite: 5.3.5(@types/node@20.14.13)(sass@1.77.8)(terser@5.31.3)
       vue: 3.4.35(typescript@5.5.4)
@@ -7406,7 +7406,7 @@ snapshots:
 
   browserslist@4.23.2:
     dependencies:
-      caniuse-lite: 1.0.30001645
+      caniuse-lite: 1.0.30001646
       electron-to-chromium: 1.5.4
       node-releases: 2.0.18
       update-browserslist-db: 1.1.0(browserslist@4.23.2)
@@ -7455,7 +7455,7 @@ snapshots:
 
   camelcase@6.3.0: {}
 
-  caniuse-lite@1.0.30001645: {}
+  caniuse-lite@1.0.30001646: {}
 
   catering@2.1.1: {}
 
