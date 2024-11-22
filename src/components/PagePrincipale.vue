@@ -7,7 +7,7 @@
       >
         <v-img
           height="300"
-          src="@/assets/logo.svg"
+          :src="imgLogo"
         />
       </v-col>
       <v-col
@@ -265,6 +265,7 @@ import imgScienceCitoyenne from '@/assets/undraw/undraw_fall_is_coming_yl-0-x.sv
 import imgDocu from '@/assets/undraw/undraw_book_lover_re_rwjy.svg';
 import imgAppliEnLigne from '@/assets/undraw/undraw_browsing_re_eycn.svg';
 import imgInstaller from '@/assets/undraw/undraw_data_processing_yrrv.svg';
+import imgLogo from "@/assets/logo.svg";
 
 import { obtLienTéléchargement } from '@/utils/téléchargements';
 import { ouvrirLien } from '@/utils/utils';

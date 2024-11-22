@@ -18,7 +18,7 @@
       >
         <v-img
           height="300"
-          src="@/assets/logo.svg"
+          :src="imgLogo"
         />
       </v-col>
       <v-col
@@ -140,6 +140,7 @@ import semver from 'semver';
 
 import CarteTelechargement from './CarteTéléchargement.vue';
 import IndiceInstallationApple from './IndiceInstallationApple.vue';
+import imgLogo from "@/assets/logo.svg";
 
 import {
   InfoTéléchargement,
