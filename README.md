@@ -1,6 +1,8 @@
 # Site internet de Constellation
 Ceci est le code source pour le site internet de [Constellation](https://réseau-constellation.ca).
 
+[![Appli internet](https://github.com/reseau-constellation/site/actions/workflows/pages-github.yml/badge.svg?branch=main)](https://github.com/reseau-constellation/site/actions/workflows/pages-github.yml)
+
 ## Utilisation
 Pour compiler le site, exécuter :
 ```sh
