@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@lassi-js/kilimukku-vue':
-        specifier: ^1.1.0
-        version: 1.1.11(@constl/ipa@1.6.2(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0)))(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))(vue@3.5.17(typescript@5.8.3))
+        specifier: ^2.0.0
+        version: 2.0.0(@constl/ipa@1.6.2(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0)))(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))(vue@3.5.17(typescript@5.8.3))
       '@mdi/font':
         specifier: 7.4.47
         version: 7.4.47
@@ -1075,8 +1075,8 @@ packages:
   '@lassi-js/kili@0.4.2':
     resolution: {integrity: sha512-5uMGPOoGumnYB3Wok+6Db1s1yi0WNrvU6INMlH1/aFu5gDWEIDTahZp3k/tYlN3qnpibE38PlaWuPmGu2RijQA==}
 
-  '@lassi-js/kilimukku-vue@1.1.11':
-    resolution: {integrity: sha512-xNfFa/DneM2aD+kIjyQDih5zpuvRs8ja/hyLQ9dznVAQlF5+JvlF9eCG5qGoCKTsF3w56BCUjxqjooF/MRH3Tw==}
+  '@lassi-js/kilimukku-vue@2.0.0':
+    resolution: {integrity: sha512-PIWa2/smkCnISHTNgp7M3DKsU6V6hH0eZNqyN2Mkg1UMxz34YPDtDestOUg98LWb5ktEYcvp6K4HmfZ9xlhIkw==}
     peerDependencies:
       vue: ^3.4.19
 
@@ -6035,7 +6035,7 @@ snapshots:
       '@orbitdb/core': 2.5.0
       deepcopy: 2.1.0
 
-  '@lassi-js/kilimukku-vue@1.1.11(@constl/ipa@1.6.2(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0)))(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))(vue@3.5.17(typescript@5.8.3))':
+  '@lassi-js/kilimukku-vue@2.0.0(@constl/ipa@1.6.2(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0)))(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))(vue@3.5.17(typescript@5.8.3))':
     dependencies:
       '@chriscdn/promise-semaphore': 2.0.10
       '@lassi-js/kili': 0.4.2
