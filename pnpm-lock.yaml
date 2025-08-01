@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@lassi-js/kilimukku-vue':
         specifier: ^1.1.0
-        version: 1.1.11(@constl/ipa@1.6.2(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0)))(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0))(vue@3.5.18(typescript@5.8.3))
+        version: 1.1.11(@constl/ipa@1.6.2(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0)))(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0))(vue@3.5.18(typescript@5.9.2))
       '@mdi/font':
         specifier: 7.4.47
         version: 7.4.47
@@ -28,13 +28,13 @@ importers:
         version: 7.7.2
       vue:
         specifier: ^3.3.0
-        version: 3.5.18(typescript@5.8.3)
+        version: 3.5.18(typescript@5.9.2)
       vue-router:
         specifier: ^4.3.0
-        version: 4.5.1(vue@3.5.18(typescript@5.8.3))
+        version: 4.5.1(vue@3.5.18(typescript@5.9.2))
       vuetify:
         specifier: ^3.0.0
-        version: 3.9.3(typescript@5.8.3)(vite-plugin-vuetify@2.1.2)(vue@3.5.18(typescript@5.8.3))
+        version: 3.9.3(typescript@5.9.2)(vite-plugin-vuetify@2.1.2)(vue@3.5.18(typescript@5.9.2))
     devDependencies:
       '@babel/types':
         specifier: ^7.23.0
@@ -50,7 +50,7 @@ importers:
         version: 7.7.0
       '@vitejs/plugin-vue':
         specifier: ^6.0.0
-        version: 6.0.1(vite@7.0.6(@types/node@22.17.0)(sass@1.89.2)(terser@5.43.1)(yaml@2.8.0))(vue@3.5.18(typescript@5.8.3))
+        version: 6.0.1(vite@7.0.6(@types/node@22.17.0)(sass@1.89.2)(terser@5.43.1)(yaml@2.8.0))(vue@3.5.18(typescript@5.9.2))
       cross-env:
         specifier: ^10.0.0
         version: 10.0.0
@@ -59,22 +59,22 @@ importers:
         version: 1.89.2
       typescript:
         specifier: ^5.3.0
-        version: 5.8.3
+        version: 5.9.2
       unplugin-fonts:
         specifier: ^1.1.0
         version: 1.4.0(vite@7.0.6(@types/node@22.17.0)(sass@1.89.2)(terser@5.43.1)(yaml@2.8.0))
       unplugin-vue-components:
         specifier: ^28.0.0
-        version: 28.8.0(@babel/parser@7.28.0)(vue@3.5.18(typescript@5.8.3))
+        version: 28.8.0(@babel/parser@7.28.0)(vue@3.5.18(typescript@5.9.2))
       vite:
         specifier: ^7.0.0
         version: 7.0.6(@types/node@22.17.0)(sass@1.89.2)(terser@5.43.1)(yaml@2.8.0)
       vite-plugin-vuetify:
         specifier: ^2.0.0
-        version: 2.1.2(vite@7.0.6(@types/node@22.17.0)(sass@1.89.2)(terser@5.43.1)(yaml@2.8.0))(vue@3.5.18(typescript@5.8.3))(vuetify@3.9.3)
+        version: 2.1.2(vite@7.0.6(@types/node@22.17.0)(sass@1.89.2)(terser@5.43.1)(yaml@2.8.0))(vue@3.5.18(typescript@5.9.2))(vuetify@3.9.3)
       vue-tsc:
         specifier: ^3.0.0
-        version: 3.0.4(typescript@5.8.3)
+        version: 3.0.4(typescript@5.9.2)
 
 packages:
 
@@ -2312,8 +2312,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.5.193:
-    resolution: {integrity: sha512-eePuBZXM9OVCwfYUhd2OzESeNGnWmLyeu0XAEjf7xjijNjHFdeJSzuRUGN4ueT2tEYo5YqjHramKEFxz67p3XA==}
+  electron-to-chromium@1.5.194:
+    resolution: {integrity: sha512-SdnWJwSUot04UR51I2oPD8kuP2VI37/CADR1OHsFOUzZIvfWJBO6q11k5P/uKNyTT3cdOsnyjkrZ+DDShqYqJA==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -4244,8 +4244,8 @@ packages:
     resolution: {integrity: sha512-Ne2YiiGN8bmrmJJEuTWTLJR32nh/JdL1+PSicowtNb0WFpn59GK8/lfD61bVtzguz7b3PBt74nxpv/Pw5po5Rg==}
     engines: {node: '>=8'}
 
-  typescript@5.8.3:
-    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
+  typescript@5.9.2:
+    resolution: {integrity: sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -6032,7 +6032,7 @@ snapshots:
       '@orbitdb/core': 2.5.0
       deepcopy: 2.1.0
 
-  '@lassi-js/kilimukku-vue@1.1.11(@constl/ipa@1.6.2(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0)))(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0))(vue@3.5.18(typescript@5.8.3))':
+  '@lassi-js/kilimukku-vue@1.1.11(@constl/ipa@1.6.2(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0)))(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0))(vue@3.5.18(typescript@5.9.2))':
     dependencies:
       '@chriscdn/promise-semaphore': 2.0.10
       '@lassi-js/kili': 0.4.2
@@ -6042,7 +6042,7 @@ snapshots:
       lodash-es: 4.17.21
       nuchabal: 3.2.7(@constl/ipa@1.6.2(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0)))
       uuid: 11.1.0
-      vue: 3.5.18(typescript@5.8.3)
+      vue: 3.5.18(typescript@5.9.2)
     transitivePeerDependencies:
       - '@constl/ipa'
       - bufferutil
@@ -7234,11 +7234,11 @@ snapshots:
     dependencies:
       '@types/yargs-parser': 21.0.3
 
-  '@vitejs/plugin-vue@6.0.1(vite@7.0.6(@types/node@22.17.0)(sass@1.89.2)(terser@5.43.1)(yaml@2.8.0))(vue@3.5.18(typescript@5.8.3))':
+  '@vitejs/plugin-vue@6.0.1(vite@7.0.6(@types/node@22.17.0)(sass@1.89.2)(terser@5.43.1)(yaml@2.8.0))(vue@3.5.18(typescript@5.9.2))':
     dependencies:
       '@rolldown/pluginutils': 1.0.0-beta.29
       vite: 7.0.6(@types/node@22.17.0)(sass@1.89.2)(terser@5.43.1)(yaml@2.8.0)
-      vue: 3.5.18(typescript@5.8.3)
+      vue: 3.5.18(typescript@5.9.2)
 
   '@volar/language-core@2.4.20':
     dependencies:
@@ -7289,7 +7289,7 @@ snapshots:
 
   '@vue/devtools-api@6.6.4': {}
 
-  '@vue/language-core@3.0.4(typescript@5.8.3)':
+  '@vue/language-core@3.0.4(typescript@5.9.2)':
     dependencies:
       '@volar/language-core': 2.4.20
       '@vue/compiler-dom': 3.5.18
@@ -7300,7 +7300,7 @@ snapshots:
       path-browserify: 1.0.1
       picomatch: 4.0.3
     optionalDependencies:
-      typescript: 5.8.3
+      typescript: 5.9.2
 
   '@vue/reactivity@3.5.18':
     dependencies:
@@ -7318,19 +7318,19 @@ snapshots:
       '@vue/shared': 3.5.18
       csstype: 3.1.3
 
-  '@vue/server-renderer@3.5.18(vue@3.5.18(typescript@5.8.3))':
+  '@vue/server-renderer@3.5.18(vue@3.5.18(typescript@5.9.2))':
     dependencies:
       '@vue/compiler-ssr': 3.5.18
       '@vue/shared': 3.5.18
-      vue: 3.5.18(typescript@5.8.3)
+      vue: 3.5.18(typescript@5.9.2)
 
   '@vue/shared@3.5.18': {}
 
-  '@vuetify/loader-shared@2.1.1(vue@3.5.18(typescript@5.8.3))(vuetify@3.9.3)':
+  '@vuetify/loader-shared@2.1.1(vue@3.5.18(typescript@5.9.2))(vuetify@3.9.3)':
     dependencies:
       upath: 2.0.1
-      vue: 3.5.18(typescript@5.8.3)
-      vuetify: 3.9.3(typescript@5.8.3)(vite-plugin-vuetify@2.1.2)(vue@3.5.18(typescript@5.8.3))
+      vue: 3.5.18(typescript@5.9.2)
+      vuetify: 3.9.3(typescript@5.9.2)(vite-plugin-vuetify@2.1.2)(vue@3.5.18(typescript@5.9.2))
 
   abort-controller@3.0.0:
     dependencies:
@@ -7579,7 +7579,7 @@ snapshots:
   browserslist@4.25.1:
     dependencies:
       caniuse-lite: 1.0.30001731
-      electron-to-chromium: 1.5.193
+      electron-to-chromium: 1.5.194
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.25.1)
 
@@ -7965,7 +7965,7 @@ snapshots:
     dependencies:
       jake: 10.9.2
 
-  electron-to-chromium@1.5.193: {}
+  electron-to-chromium@1.5.194: {}
 
   emoji-regex@8.0.0: {}
 
@@ -10206,7 +10206,7 @@ snapshots:
 
   type-fest@0.7.1: {}
 
-  typescript@5.8.3: {}
+  typescript@5.9.2: {}
 
   ufo@1.6.1: {}
 
@@ -10251,7 +10251,7 @@ snapshots:
       pathe: 2.0.3
       picomatch: 4.0.2
 
-  unplugin-vue-components@28.8.0(@babel/parser@7.28.0)(vue@3.5.18(typescript@5.8.3)):
+  unplugin-vue-components@28.8.0(@babel/parser@7.28.0)(vue@3.5.18(typescript@5.9.2)):
     dependencies:
       chokidar: 3.6.0
       debug: 4.4.1
@@ -10261,7 +10261,7 @@ snapshots:
       tinyglobby: 0.2.14
       unplugin: 2.3.5
       unplugin-utils: 0.2.4
-      vue: 3.5.18(typescript@5.8.3)
+      vue: 3.5.18(typescript@5.9.2)
     optionalDependencies:
       '@babel/parser': 7.28.0
     transitivePeerDependencies:
@@ -10295,14 +10295,14 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite-plugin-vuetify@2.1.2(vite@7.0.6(@types/node@22.17.0)(sass@1.89.2)(terser@5.43.1)(yaml@2.8.0))(vue@3.5.18(typescript@5.8.3))(vuetify@3.9.3):
+  vite-plugin-vuetify@2.1.2(vite@7.0.6(@types/node@22.17.0)(sass@1.89.2)(terser@5.43.1)(yaml@2.8.0))(vue@3.5.18(typescript@5.9.2))(vuetify@3.9.3):
     dependencies:
-      '@vuetify/loader-shared': 2.1.1(vue@3.5.18(typescript@5.8.3))(vuetify@3.9.3)
+      '@vuetify/loader-shared': 2.1.1(vue@3.5.18(typescript@5.9.2))(vuetify@3.9.3)
       debug: 4.4.1
       upath: 2.0.1
       vite: 7.0.6(@types/node@22.17.0)(sass@1.89.2)(terser@5.43.1)(yaml@2.8.0)
-      vue: 3.5.18(typescript@5.8.3)
-      vuetify: 3.9.3(typescript@5.8.3)(vite-plugin-vuetify@2.1.2)(vue@3.5.18(typescript@5.8.3))
+      vue: 3.5.18(typescript@5.9.2)
+      vuetify: 3.9.3(typescript@5.9.2)(vite-plugin-vuetify@2.1.2)(vue@3.5.18(typescript@5.9.2))
     transitivePeerDependencies:
       - supports-color
 
@@ -10325,33 +10325,33 @@ snapshots:
 
   vscode-uri@3.1.0: {}
 
-  vue-router@4.5.1(vue@3.5.18(typescript@5.8.3)):
+  vue-router@4.5.1(vue@3.5.18(typescript@5.9.2)):
     dependencies:
       '@vue/devtools-api': 6.6.4
-      vue: 3.5.18(typescript@5.8.3)
+      vue: 3.5.18(typescript@5.9.2)
 
-  vue-tsc@3.0.4(typescript@5.8.3):
+  vue-tsc@3.0.4(typescript@5.9.2):
     dependencies:
       '@volar/typescript': 2.4.20
-      '@vue/language-core': 3.0.4(typescript@5.8.3)
-      typescript: 5.8.3
+      '@vue/language-core': 3.0.4(typescript@5.9.2)
+      typescript: 5.9.2
 
-  vue@3.5.18(typescript@5.8.3):
+  vue@3.5.18(typescript@5.9.2):
     dependencies:
       '@vue/compiler-dom': 3.5.18
       '@vue/compiler-sfc': 3.5.18
       '@vue/runtime-dom': 3.5.18
-      '@vue/server-renderer': 3.5.18(vue@3.5.18(typescript@5.8.3))
+      '@vue/server-renderer': 3.5.18(vue@3.5.18(typescript@5.9.2))
       '@vue/shared': 3.5.18
     optionalDependencies:
-      typescript: 5.8.3
+      typescript: 5.9.2
 
-  vuetify@3.9.3(typescript@5.8.3)(vite-plugin-vuetify@2.1.2)(vue@3.5.18(typescript@5.8.3)):
+  vuetify@3.9.3(typescript@5.9.2)(vite-plugin-vuetify@2.1.2)(vue@3.5.18(typescript@5.9.2)):
     dependencies:
-      vue: 3.5.18(typescript@5.8.3)
+      vue: 3.5.18(typescript@5.9.2)
     optionalDependencies:
-      typescript: 5.8.3
-      vite-plugin-vuetify: 2.1.2(vite@7.0.6(@types/node@22.17.0)(sass@1.89.2)(terser@5.43.1)(yaml@2.8.0))(vue@3.5.18(typescript@5.8.3))(vuetify@3.9.3)
+      typescript: 5.9.2
+      vite-plugin-vuetify: 2.1.2(vite@7.0.6(@types/node@22.17.0)(sass@1.89.2)(terser@5.43.1)(yaml@2.8.0))(vue@3.5.18(typescript@5.9.2))(vuetify@3.9.3)
 
   walker@1.0.8:
     dependencies:
