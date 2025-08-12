@@ -50,7 +50,7 @@ importers:
         version: 7.7.0
       '@vitejs/plugin-vue':
         specifier: ^6.0.0
-        version: 6.0.1(vite@7.1.1(@types/node@22.17.1)(sass@1.90.0)(terser@5.43.1)(yaml@2.8.1))(vue@3.5.18(typescript@5.9.2))
+        version: 6.0.1(vite@7.1.2(@types/node@22.17.1)(sass@1.90.0)(terser@5.43.1)(yaml@2.8.1))(vue@3.5.18(typescript@5.9.2))
       cross-env:
         specifier: ^10.0.0
         version: 10.0.0
@@ -62,16 +62,16 @@ importers:
         version: 5.9.2
       unplugin-fonts:
         specifier: ^1.1.0
-        version: 1.4.0(vite@7.1.1(@types/node@22.17.1)(sass@1.90.0)(terser@5.43.1)(yaml@2.8.1))
+        version: 1.4.0(vite@7.1.2(@types/node@22.17.1)(sass@1.90.0)(terser@5.43.1)(yaml@2.8.1))
       unplugin-vue-components:
         specifier: ^29.0.0
         version: 29.0.0(@babel/parser@7.28.0)(vue@3.5.18(typescript@5.9.2))
       vite:
         specifier: ^7.0.0
-        version: 7.1.1(@types/node@22.17.1)(sass@1.90.0)(terser@5.43.1)(yaml@2.8.1)
+        version: 7.1.2(@types/node@22.17.1)(sass@1.90.0)(terser@5.43.1)(yaml@2.8.1)
       vite-plugin-vuetify:
         specifier: ^2.0.0
-        version: 2.1.2(vite@7.1.1(@types/node@22.17.1)(sass@1.90.0)(terser@5.43.1)(yaml@2.8.1))(vue@3.5.18(typescript@5.9.2))(vuetify@3.9.4)
+        version: 2.1.2(vite@7.1.2(@types/node@22.17.1)(sass@1.90.0)(terser@5.43.1)(yaml@2.8.1))(vue@3.5.18(typescript@5.9.2))(vuetify@3.9.4)
       vue-tsc:
         specifier: ^3.0.0
         version: 3.0.5(typescript@5.9.2)
@@ -1955,8 +1955,8 @@ packages:
   browser-readablestream-to-it@2.0.8:
     resolution: {integrity: sha512-+aDq+8QoTxIklc9m21oVg96Bm18EpeVke4/8vWPNu+9Ktd+G4PYavitE4gv/pjIndw1q+vxE/Rcnv1zYHrEQbQ==}
 
-  browserslist@4.25.1:
-    resolution: {integrity: sha512-KGj0KoOMXLpSNkkEI6Z6mShmQy0bc1I+T7K9N81k4WWMrfz+6fQ6es80B/YLAeRoKvjYE1YSHHOW1qe9xIVzHw==}
+  browserslist@4.25.2:
+    resolution: {integrity: sha512-0si2SJK3ooGzIawRu61ZdPCO1IncZwS8IzuX73sPZsXW6EQ/w/DAfPyKI8l1ETTCr2MnvqWitmlCUxgdul45jA==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
@@ -2011,8 +2011,8 @@ packages:
     resolution: {integrity: sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==}
     engines: {node: '>=10'}
 
-  caniuse-lite@1.0.30001733:
-    resolution: {integrity: sha512-e4QKw/O2Kavj2VQTKZWrwzkt3IxOmIlU6ajRb6LP64LHpBo1J67k2Hi4Vu/TgJWsNtynurfS0uK3MaUTCPfu5Q==}
+  caniuse-lite@1.0.30001734:
+    resolution: {integrity: sha512-uhE1Ye5vgqju6OI71HTQqcBCZrvHugk0MjLak7Q+HfoBgoq5Bi+5YnwjP4fjDgrtYr/l8MVRBvzz9dPD4KyK0A==}
 
   catering@2.1.1:
     resolution: {integrity: sha512-K7Qy8O9p76sL3/3m7/zLKbRkyOlSZAgzEaLhyj2mXS8PsCud2Eo4hAb8aLtZqHh0QGqLcb9dlJSu6lHRVENm1w==}
@@ -2309,8 +2309,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.5.199:
-    resolution: {integrity: sha512-3gl0S7zQd88kCAZRO/DnxtBKuhMO4h0EaQIN3YgZfV6+pW+5+bf2AdQeHNESCoaQqo/gjGVYEf2YM4O5HJQqpQ==}
+  electron-to-chromium@1.5.200:
+    resolution: {integrity: sha512-rFCxROw7aOe4uPTfIAx+rXv9cEcGx+buAF4npnhtTqCJk5KDFRnh3+KYj7rdVh6lsFt5/aPs+Irj9rZ33WMA7w==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -4350,8 +4350,8 @@ packages:
       vue: ^3.0.0
       vuetify: ^3.0.0
 
-  vite@7.1.1:
-    resolution: {integrity: sha512-yJ+Mp7OyV+4S+afWo+QyoL9jFWD11QFH0i5i7JypnfTcA1rmgxCbiA8WwAICDEtZ1Z1hzrVhN8R8rGTqkTY8ZQ==}
+  vite@7.1.2:
+    resolution: {integrity: sha512-J0SQBPlQiEXAF7tajiH+rUooJPo0l8KQgyg4/aMunNtrOa7bwuZJsJbDWzeljqQpgftxuq5yNJxQ91O9ts29UQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -4657,7 +4657,7 @@ snapshots:
     dependencies:
       '@babel/compat-data': 7.28.0
       '@babel/helper-validator-option': 7.27.1
-      browserslist: 4.25.1
+      browserslist: 4.25.2
       lru-cache: 5.1.1
       semver: 6.3.1
 
@@ -7225,10 +7225,10 @@ snapshots:
     dependencies:
       '@types/yargs-parser': 21.0.3
 
-  '@vitejs/plugin-vue@6.0.1(vite@7.1.1(@types/node@22.17.1)(sass@1.90.0)(terser@5.43.1)(yaml@2.8.1))(vue@3.5.18(typescript@5.9.2))':
+  '@vitejs/plugin-vue@6.0.1(vite@7.1.2(@types/node@22.17.1)(sass@1.90.0)(terser@5.43.1)(yaml@2.8.1))(vue@3.5.18(typescript@5.9.2))':
     dependencies:
       '@rolldown/pluginutils': 1.0.0-beta.29
-      vite: 7.1.1(@types/node@22.17.1)(sass@1.90.0)(terser@5.43.1)(yaml@2.8.1)
+      vite: 7.1.2(@types/node@22.17.1)(sass@1.90.0)(terser@5.43.1)(yaml@2.8.1)
       vue: 3.5.18(typescript@5.9.2)
 
   '@volar/language-core@2.4.22':
@@ -7567,12 +7567,12 @@ snapshots:
 
   browser-readablestream-to-it@2.0.8: {}
 
-  browserslist@4.25.1:
+  browserslist@4.25.2:
     dependencies:
-      caniuse-lite: 1.0.30001733
-      electron-to-chromium: 1.5.199
+      caniuse-lite: 1.0.30001734
+      electron-to-chromium: 1.5.200
       node-releases: 2.0.19
-      update-browserslist-db: 1.1.3(browserslist@4.25.1)
+      update-browserslist-db: 1.1.3(browserslist@4.25.2)
 
   bs58@6.0.0:
     dependencies:
@@ -7627,7 +7627,7 @@ snapshots:
 
   camelcase@6.3.0: {}
 
-  caniuse-lite@1.0.30001733: {}
+  caniuse-lite@1.0.30001734: {}
 
   catering@2.1.1: {}
 
@@ -7783,7 +7783,7 @@ snapshots:
 
   core-js-compat@3.45.0:
     dependencies:
-      browserslist: 4.25.1
+      browserslist: 4.25.2
 
   core-util-is@1.0.3: {}
 
@@ -7956,7 +7956,7 @@ snapshots:
     dependencies:
       jake: 10.9.2
 
-  electron-to-chromium@1.5.199: {}
+  electron-to-chromium@1.5.200: {}
 
   emoji-regex@8.0.0: {}
 
@@ -10229,11 +10229,11 @@ snapshots:
 
   unpipe@1.0.0: {}
 
-  unplugin-fonts@1.4.0(vite@7.1.1(@types/node@22.17.1)(sass@1.90.0)(terser@5.43.1)(yaml@2.8.1)):
+  unplugin-fonts@1.4.0(vite@7.1.2(@types/node@22.17.1)(sass@1.90.0)(terser@5.43.1)(yaml@2.8.1)):
     dependencies:
       fast-glob: 3.3.3
       unplugin: 2.3.5
-      vite: 7.1.1(@types/node@22.17.1)(sass@1.90.0)(terser@5.43.1)(yaml@2.8.1)
+      vite: 7.1.2(@types/node@22.17.1)(sass@1.90.0)(terser@5.43.1)(yaml@2.8.1)
 
   unplugin-utils@0.2.4:
     dependencies:
@@ -10264,9 +10264,9 @@ snapshots:
 
   upath@2.0.1: {}
 
-  update-browserslist-db@1.1.3(browserslist@4.25.1):
+  update-browserslist-db@1.1.3(browserslist@4.25.2):
     dependencies:
-      browserslist: 4.25.1
+      browserslist: 4.25.2
       escalade: 3.2.0
       picocolors: 1.1.1
 
@@ -10284,18 +10284,18 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite-plugin-vuetify@2.1.2(vite@7.1.1(@types/node@22.17.1)(sass@1.90.0)(terser@5.43.1)(yaml@2.8.1))(vue@3.5.18(typescript@5.9.2))(vuetify@3.9.4):
+  vite-plugin-vuetify@2.1.2(vite@7.1.2(@types/node@22.17.1)(sass@1.90.0)(terser@5.43.1)(yaml@2.8.1))(vue@3.5.18(typescript@5.9.2))(vuetify@3.9.4):
     dependencies:
       '@vuetify/loader-shared': 2.1.1(vue@3.5.18(typescript@5.9.2))(vuetify@3.9.4)
       debug: 4.4.1
       upath: 2.0.1
-      vite: 7.1.1(@types/node@22.17.1)(sass@1.90.0)(terser@5.43.1)(yaml@2.8.1)
+      vite: 7.1.2(@types/node@22.17.1)(sass@1.90.0)(terser@5.43.1)(yaml@2.8.1)
       vue: 3.5.18(typescript@5.9.2)
       vuetify: 3.9.4(typescript@5.9.2)(vite-plugin-vuetify@2.1.2)(vue@3.5.18(typescript@5.9.2))
     transitivePeerDependencies:
       - supports-color
 
-  vite@7.1.1(@types/node@22.17.1)(sass@1.90.0)(terser@5.43.1)(yaml@2.8.1):
+  vite@7.1.2(@types/node@22.17.1)(sass@1.90.0)(terser@5.43.1)(yaml@2.8.1):
     dependencies:
       esbuild: 0.25.8
       fdir: 6.4.6(picomatch@4.0.3)
@@ -10340,7 +10340,7 @@ snapshots:
       vue: 3.5.18(typescript@5.9.2)
     optionalDependencies:
       typescript: 5.9.2
-      vite-plugin-vuetify: 2.1.2(vite@7.1.1(@types/node@22.17.1)(sass@1.90.0)(terser@5.43.1)(yaml@2.8.1))(vue@3.5.18(typescript@5.9.2))(vuetify@3.9.4)
+      vite-plugin-vuetify: 2.1.2(vite@7.1.2(@types/node@22.17.1)(sass@1.90.0)(terser@5.43.1)(yaml@2.8.1))(vue@3.5.18(typescript@5.9.2))(vuetify@3.9.4)
 
   walker@1.0.8:
     dependencies:
