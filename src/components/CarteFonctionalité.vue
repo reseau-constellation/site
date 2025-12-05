@@ -3,6 +3,7 @@
     width="300"
     height="330"
     class="text-center"
+    variant="flat"
   >
     <v-card-item class="mt-4">
       <v-card-title class="text-h5 font-weight-bold">{{ titre }}</v-card-title>
