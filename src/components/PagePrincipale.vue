@@ -127,6 +127,7 @@
               :src="imgInstaller"
             />
             {{ t('principale.démarrer.comment.installer.sousTitre') }}
+            <v-btn v-show="lienTéléchargementDirecte" class="mt-4" variant="outlined" :append-icon="isRtl ? 'mdi-chevron-left' : 'mdi-chevron-right'" @click.stop="() => routeur.push(encodeURI('/téléchargements'))">{{ t('principale.démarrer.comment.installer.btn') }}</v-btn>
           </v-card-text>
         </v-card>
       </v-col>
@@ -251,7 +252,8 @@
 
 <script setup lang="ts">
 import { computed, onMounted, ref } from 'vue';
-import { useDisplay } from 'vuetify';
+import { useDisplay, useRtl } from 'vuetify';
+import { useRouter } from 'vue-router';
 
 import { கிளிமூக்கை_பயன்படுத்து, மொழிகளைப்_பயன்படுத்து } from '@lassi-js/kilimukku-vue';
 
@@ -271,6 +273,8 @@ import { obtLienTéléchargement } from '@/utils/téléchargements';
 import { ouvrirLien } from '@/utils/utils';
 
 const { mdAndUp } = useDisplay();
+const { isRtl } = useRtl();
+const routeur = useRouter();
 
 const { மொழியாக்கம்_பயன்படுத்து } = கிளிமூக்கை_பயன்படுத்து();
 const { $மொ: t } = மொழியாக்கம்_பயன்படுத்து({});

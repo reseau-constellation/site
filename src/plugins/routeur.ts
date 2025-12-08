@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory, type RouteRecordRaw } from 'vue-router';
+import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router';
 import PagePrincipale from '@/components/PagePrincipale.vue';
 import PageTéléchargements from '@/components/PageTéléchargements.vue';
 import { மொழிகளைப்_பயன்படுத்து } from '@lassi-js/kilimukku-vue';
@@ -16,7 +16,7 @@ const routes: Array<RouteRecordRaw> = [
 ];
 
 const routeur = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes,
 });
 

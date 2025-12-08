@@ -36,7 +36,8 @@
           },
           "installer": {
             "titre": "Installer Constellation",
-            "sousTitre": "Pour plus de fonctionnalités et d'indépendance."
+            "sousTitre": "Pour plus de fonctionnalités et d'indépendance.",
+            "btn": "Voir tous"
           },
           "programme": {
             "titre": "Accès programmatique",
@@ -132,7 +133,8 @@
           },
           "installer": {
             "titre": "விண்மீன் நிறுவல்",
-            "sousTitre": "அதிகமான சுதந்திரமும் செயல்பாடுகளும்."
+            "sousTitre": "அதிகமான சுதந்திரமும் செயல்பாடுகளும்.",
+            "btn": "எல்லா பதிவிரக்கங்கள்"
           },
           "programme": {
             "titre": "மென்பொருள் மூலம் அணுகல்",
