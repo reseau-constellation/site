@@ -34,7 +34,7 @@ importers:
         version: 4.6.4(vue@3.5.25(typescript@5.9.3))
       vuetify:
         specifier: ^3.0.0
-        version: 3.11.3(typescript@5.9.3)(vite-plugin-vuetify@2.1.2)(vue@3.5.25(typescript@5.9.3))
+        version: 3.11.4(typescript@5.9.3)(vite-plugin-vuetify@2.1.2)(vue@3.5.25(typescript@5.9.3))
     devDependencies:
       '@babel/types':
         specifier: ^7.23.0
@@ -71,7 +71,7 @@ importers:
         version: 7.3.0(@types/node@24.10.4)(sass@1.97.0)(terser@5.44.1)(yaml@2.8.2)
       vite-plugin-vuetify:
         specifier: ^2.0.0
-        version: 2.1.2(vite@7.3.0(@types/node@24.10.4)(sass@1.97.0)(terser@5.44.1)(yaml@2.8.2))(vue@3.5.25(typescript@5.9.3))(vuetify@3.11.3)
+        version: 2.1.2(vite@7.3.0(@types/node@24.10.4)(sass@1.97.0)(terser@5.44.1)(yaml@2.8.2))(vue@3.5.25(typescript@5.9.3))(vuetify@3.11.4)
       vue-tsc:
         specifier: ^3.0.0
         version: 3.1.8(typescript@5.9.3)
@@ -2918,8 +2918,8 @@ packages:
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
-  iso-constants@https://codeload.github.com/inverted-capital/iso-constants/tar.gz/2af6fdfb2cacaa03ebd58543703918783e62649f:
-    resolution: {tarball: https://codeload.github.com/inverted-capital/iso-constants/tar.gz/2af6fdfb2cacaa03ebd58543703918783e62649f}
+  iso-constants@git+https://github.com/inverted-capital/iso-constants.git#2af6fdfb2cacaa03ebd58543703918783e62649f:
+    resolution: {commit: 2af6fdfb2cacaa03ebd58543703918783e62649f, repo: https://github.com/inverted-capital/iso-constants.git, type: git}
     version: 0.1.2
     engines: {node: '>=10'}
 
@@ -4416,8 +4416,8 @@ packages:
       typescript:
         optional: true
 
-  vuetify@3.11.3:
-    resolution: {integrity: sha512-sZe/2f143cbqtJupkynOGOHxgn+YjRrXIj0atZlBECbOr4nZPCmSdukPSbudb0wU3fQpUjlaTGx0m4vIBPQqGQ==}
+  vuetify@3.11.4:
+    resolution: {integrity: sha512-614MKpopMzNjkQVD5CS/xr77p4CqtF2wNqQByAi7oTEcKzA+gOsy5O3l97ZIqomNidOSGXyVg5s6t5bNO9p4+Q==}
     peerDependencies:
       typescript: '>=4.7'
       vite-plugin-vuetify: '>=2.1.0'
@@ -4533,7 +4533,7 @@ packages:
         optional: true
 
   xlsx@https://cdn.sheetjs.com/xlsx-0.19.1/xlsx-0.19.1.tgz:
-    resolution: {integrity: sha512-pPh/ybd1bChlhCrtQ9QmRUx2yjQwMbS4tfvV9MSA2Qmm7vRUHQtPDMlLjAvQ2A4v8G92i2RlrNkSOKb1bwY7ww==, tarball: https://cdn.sheetjs.com/xlsx-0.19.1/xlsx-0.19.1.tgz}
+    resolution: {tarball: https://cdn.sheetjs.com/xlsx-0.19.1/xlsx-0.19.1.tgz}
     version: 0.19.1
     engines: {node: '>=0.8'}
     hasBin: true
@@ -5622,7 +5622,7 @@ snapshots:
       geojson-validation: 1.0.2
       helia: 5.2.1(react-native@0.73.6(@babel/core@7.28.5)(@babel/preset-env@7.24.4(@babel/core@7.28.5))(react@18.2.0))
       indexed-db-stream: 1.0.0
-      iso-constants: https://codeload.github.com/inverted-capital/iso-constants/tar.gz/2af6fdfb2cacaa03ebd58543703918783e62649f
+      iso-constants: git+https://github.com/inverted-capital/iso-constants.git#2af6fdfb2cacaa03ebd58543703918783e62649f
       it-drain: 3.0.8
       it-pipe: 3.0.1
       it-pushable: 3.2.3
@@ -7317,11 +7317,11 @@ snapshots:
 
   '@vue/shared@3.5.25': {}
 
-  '@vuetify/loader-shared@2.1.1(vue@3.5.25(typescript@5.9.3))(vuetify@3.11.3)':
+  '@vuetify/loader-shared@2.1.1(vue@3.5.25(typescript@5.9.3))(vuetify@3.11.4)':
     dependencies:
       upath: 2.0.1
       vue: 3.5.25(typescript@5.9.3)
-      vuetify: 3.11.3(typescript@5.9.3)(vite-plugin-vuetify@2.1.2)(vue@3.5.25(typescript@5.9.3))
+      vuetify: 3.11.4(typescript@5.9.3)(vite-plugin-vuetify@2.1.2)(vue@3.5.25(typescript@5.9.3))
 
   abort-controller@3.0.0:
     dependencies:
@@ -8604,7 +8604,7 @@ snapshots:
 
   isexe@2.0.0: {}
 
-  iso-constants@https://codeload.github.com/inverted-capital/iso-constants/tar.gz/2af6fdfb2cacaa03ebd58543703918783e62649f: {}
+  iso-constants@git+https://github.com/inverted-capital/iso-constants.git#2af6fdfb2cacaa03ebd58543703918783e62649f: {}
 
   isobject@3.0.1: {}
 
@@ -10276,14 +10276,14 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite-plugin-vuetify@2.1.2(vite@7.3.0(@types/node@24.10.4)(sass@1.97.0)(terser@5.44.1)(yaml@2.8.2))(vue@3.5.25(typescript@5.9.3))(vuetify@3.11.3):
+  vite-plugin-vuetify@2.1.2(vite@7.3.0(@types/node@24.10.4)(sass@1.97.0)(terser@5.44.1)(yaml@2.8.2))(vue@3.5.25(typescript@5.9.3))(vuetify@3.11.4):
     dependencies:
-      '@vuetify/loader-shared': 2.1.1(vue@3.5.25(typescript@5.9.3))(vuetify@3.11.3)
+      '@vuetify/loader-shared': 2.1.1(vue@3.5.25(typescript@5.9.3))(vuetify@3.11.4)
       debug: 4.4.1
       upath: 2.0.1
       vite: 7.3.0(@types/node@24.10.4)(sass@1.97.0)(terser@5.44.1)(yaml@2.8.2)
       vue: 3.5.25(typescript@5.9.3)
-      vuetify: 3.11.3(typescript@5.9.3)(vite-plugin-vuetify@2.1.2)(vue@3.5.25(typescript@5.9.3))
+      vuetify: 3.11.4(typescript@5.9.3)(vite-plugin-vuetify@2.1.2)(vue@3.5.25(typescript@5.9.3))
     transitivePeerDependencies:
       - supports-color
 
@@ -10327,12 +10327,12 @@ snapshots:
     optionalDependencies:
       typescript: 5.9.3
 
-  vuetify@3.11.3(typescript@5.9.3)(vite-plugin-vuetify@2.1.2)(vue@3.5.25(typescript@5.9.3)):
+  vuetify@3.11.4(typescript@5.9.3)(vite-plugin-vuetify@2.1.2)(vue@3.5.25(typescript@5.9.3)):
     dependencies:
       vue: 3.5.25(typescript@5.9.3)
     optionalDependencies:
       typescript: 5.9.3
-      vite-plugin-vuetify: 2.1.2(vite@7.3.0(@types/node@24.10.4)(sass@1.97.0)(terser@5.44.1)(yaml@2.8.2))(vue@3.5.25(typescript@5.9.3))(vuetify@3.11.3)
+      vite-plugin-vuetify: 2.1.2(vite@7.3.0(@types/node@24.10.4)(sass@1.97.0)(terser@5.44.1)(yaml@2.8.2))(vue@3.5.25(typescript@5.9.3))(vuetify@3.11.4)
 
   walker@1.0.8:
     dependencies:
