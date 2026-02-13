@@ -127,6 +127,7 @@
               :src="imgInstaller"
             />
             {{ t('principale.démarrer.comment.installer.sousTitre') }}
+            <br/>
             <v-btn v-show="lienTéléchargementDirecte" class="mt-4" variant="outlined" :append-icon="isRtl ? 'mdi-chevron-left' : 'mdi-chevron-right'" @click.stop="() => routeur.push(encodeURI('/téléchargements'))">{{ t('principale.démarrer.comment.installer.btn') }}</v-btn>
           </v-card-text>
         </v-card>
