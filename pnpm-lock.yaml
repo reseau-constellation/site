@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@lassi-js/kilimukku-vue':
-        specifier: ^1.1.0
-        version: 1.1.11(@constl/ipa@1.6.2(react-native@0.73.6(@babel/core@7.29.0)(@babel/preset-env@7.24.4(@babel/core@7.29.0))(react@18.2.0)))(react-native@0.73.6(@babel/core@7.29.0)(@babel/preset-env@7.24.4(@babel/core@7.29.0))(react@18.2.0))(vue@3.5.29(typescript@5.9.3))
+        specifier: ^2.0.0
+        version: 2.0.0(@constl/ipa@1.6.2(react-native@0.73.6(@babel/core@7.29.0)(@babel/preset-env@7.24.4(@babel/core@7.29.0))(react@18.2.0)))(react-native@0.73.6(@babel/core@7.29.0)(@babel/preset-env@7.24.4(@babel/core@7.29.0))(react@18.2.0))(vue@3.5.29(typescript@5.9.3))
       '@mdi/font':
         specifier: 7.4.47
         version: 7.4.47
@@ -1090,8 +1090,8 @@ packages:
   '@lassi-js/kili@0.4.2':
     resolution: {integrity: sha512-5uMGPOoGumnYB3Wok+6Db1s1yi0WNrvU6INMlH1/aFu5gDWEIDTahZp3k/tYlN3qnpibE38PlaWuPmGu2RijQA==}
 
-  '@lassi-js/kilimukku-vue@1.1.11':
-    resolution: {integrity: sha512-xNfFa/DneM2aD+kIjyQDih5zpuvRs8ja/hyLQ9dznVAQlF5+JvlF9eCG5qGoCKTsF3w56BCUjxqjooF/MRH3Tw==}
+  '@lassi-js/kilimukku-vue@2.0.0':
+    resolution: {integrity: sha512-PIWa2/smkCnISHTNgp7M3DKsU6V6hH0eZNqyN2Mkg1UMxz34YPDtDestOUg98LWb5ktEYcvp6K4HmfZ9xlhIkw==}
     peerDependencies:
       vue: ^3.4.19
 
@@ -3346,9 +3346,6 @@ packages:
   minimatch@10.0.3:
     resolution: {integrity: sha512-IPZ167aShDZZUMdRk66cyQAW3qr0WzbHkPdMYa8bzZhlHhO3jALbKdxcaak7W9FfT2rZNpQuUu4Od7ILEpXSaw==}
     engines: {node: 20 || >=22}
-
-  minimatch@3.1.2:
-    resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
 
   minimatch@3.1.5:
     resolution: {integrity: sha512-VgjWUsnnT6n+NUk6eZq77zeFdpW2LWDzP6zFGrCbHXiYNul5Dzqk2HHQ5uFH2DNW5Xbp8+jVzaeNt94ssEEl4w==}
@@ -6063,7 +6060,7 @@ snapshots:
       '@orbitdb/core': 2.5.0
       deepcopy: 2.1.0
 
-  '@lassi-js/kilimukku-vue@1.1.11(@constl/ipa@1.6.2(react-native@0.73.6(@babel/core@7.29.0)(@babel/preset-env@7.24.4(@babel/core@7.29.0))(react@18.2.0)))(react-native@0.73.6(@babel/core@7.29.0)(@babel/preset-env@7.24.4(@babel/core@7.29.0))(react@18.2.0))(vue@3.5.29(typescript@5.9.3))':
+  '@lassi-js/kilimukku-vue@2.0.0(@constl/ipa@1.6.2(react-native@0.73.6(@babel/core@7.29.0)(@babel/preset-env@7.24.4(@babel/core@7.29.0))(react@18.2.0)))(react-native@0.73.6(@babel/core@7.29.0)(@babel/preset-env@7.24.4(@babel/core@7.29.0))(react@18.2.0))(vue@3.5.29(typescript@5.9.3))':
     dependencies:
       '@chriscdn/promise-semaphore': 2.0.10
       '@lassi-js/kili': 0.4.2
@@ -8807,7 +8804,7 @@ snapshots:
       async: 3.2.6
       chalk: 4.1.2
       filelist: 1.0.4
-      minimatch: 3.1.2
+      minimatch: 3.1.5
 
   jest-environment-node@29.7.0:
     dependencies:
@@ -9266,10 +9263,6 @@ snapshots:
   minimatch@10.0.3:
     dependencies:
       '@isaacs/brace-expansion': 5.0.0
-
-  minimatch@3.1.2:
-    dependencies:
-      brace-expansion: 1.1.12
 
   minimatch@3.1.5:
     dependencies:
