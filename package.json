@@ -17,7 +17,7 @@
     "semver": "^7.6.0",
     "vue": "^3.3.0",
     "vue-router": "^4.3.0",
-    "vuetify": "^3.0.0"
+    "vuetify": "^4.0.0"
   },
   "devDependencies": {
     "@babel/types": "^7.23.0",
