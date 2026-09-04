@@ -4,13 +4,16 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  '@lassi-js/kilimukku-vue': 2c2a3228a21b3ace98137bb1f6305c99e42758df03c4784f85204563dc131c25
+
 importers:
 
   .:
     dependencies:
       '@lassi-js/kilimukku-vue':
         specifier: ^1.1.0
-        version: 1.1.11(@constl/ipa@1.6.2(react-native@0.73.6(@babel/core@7.29.0)(@babel/preset-env@7.24.4(@babel/core@7.29.0))(react@18.2.0)))(react-native@0.73.6(@babel/core@7.29.0)(@babel/preset-env@7.24.4(@babel/core@7.29.0))(react@18.2.0))(vue@3.5.33(typescript@5.9.3))
+        version: 1.1.11(patch_hash=2c2a3228a21b3ace98137bb1f6305c99e42758df03c4784f85204563dc131c25)(@constl/ipa@1.6.2(react-native@0.73.6(@babel/core@7.29.0)(@babel/preset-env@7.24.4(@babel/core@7.29.0))(react@18.2.0)))(react-native@0.73.6(@babel/core@7.29.0)(@babel/preset-env@7.24.4(@babel/core@7.29.0))(react@18.2.0))(vue@3.5.33(typescript@5.9.3))
       '@mdi/font':
         specifier: 7.4.47
         version: 7.4.47
@@ -2967,7 +2970,7 @@ packages:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
   iso-constants@https://codeload.github.com/inverted-capital/iso-constants/tar.gz/2af6fdfb2cacaa03ebd58543703918783e62649f:
-    resolution: {tarball: https://codeload.github.com/inverted-capital/iso-constants/tar.gz/2af6fdfb2cacaa03ebd58543703918783e62649f}
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/inverted-capital/iso-constants/tar.gz/2af6fdfb2cacaa03ebd58543703918783e62649f}
     version: 0.1.2
     engines: {node: '>=10'}
 
@@ -6109,7 +6112,7 @@ snapshots:
       '@orbitdb/core': 2.5.0
       deepcopy: 2.1.0
 
-  '@lassi-js/kilimukku-vue@1.1.11(@constl/ipa@1.6.2(react-native@0.73.6(@babel/core@7.29.0)(@babel/preset-env@7.24.4(@babel/core@7.29.0))(react@18.2.0)))(react-native@0.73.6(@babel/core@7.29.0)(@babel/preset-env@7.24.4(@babel/core@7.29.0))(react@18.2.0))(vue@3.5.33(typescript@5.9.3))':
+  '@lassi-js/kilimukku-vue@1.1.11(patch_hash=2c2a3228a21b3ace98137bb1f6305c99e42758df03c4784f85204563dc131c25)(@constl/ipa@1.6.2(react-native@0.73.6(@babel/core@7.29.0)(@babel/preset-env@7.24.4(@babel/core@7.29.0))(react@18.2.0)))(react-native@0.73.6(@babel/core@7.29.0)(@babel/preset-env@7.24.4(@babel/core@7.29.0))(react@18.2.0))(vue@3.5.33(typescript@5.9.3))':
     dependencies:
       '@chriscdn/promise-semaphore': 2.0.10
       '@lassi-js/kili': 0.4.2
