@@ -1,0 +1,26 @@
+diff --git a/dist/retamabäl/ch'ab'äl.json b/dist/retamabäl/ch'ab'äl.json
+index ed86fd333018046937fa4221d74eab48e02b905d..6b21137f46e637e2a610b465d094db1e2ced0fa9 100644
+--- a/dist/retamabäl/ch'ab'äl.json
++++ b/dist/retamabäl/ch'ab'äl.json
+@@ -8,7 +8,7 @@
+             "i3": "cak"
+         }
+     },
+-    "fr": {
++    "fra": {
+         "aj": "latin",
+         "rb'": "français",
+         "tz": "ltn",
+diff --git a/ruxeel/retamabäl/ch'ab'äl.json b/ruxeel/retamabäl/ch'ab'äl.json
+index eece805a99335bbd1794f9b42e32c6fc93823e64..ef9b7834cd29085a3067a1b773eed54cd6d1246d 100644
+--- a/ruxeel/retamabäl/ch'ab'äl.json
++++ b/ruxeel/retamabäl/ch'ab'äl.json
+@@ -8,7 +8,7 @@
+       "i3": "cak"
+     }
+   },
+-  "fr": {
++  "fra": {
+     "aj": "latin",
+     "rb'": "français",
+     "tz": "ltn",

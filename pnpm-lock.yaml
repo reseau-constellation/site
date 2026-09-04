@@ -6,6 +6,7 @@ settings:
 
 patchedDependencies:
   '@lassi-js/kilimukku-vue': 2c2a3228a21b3ace98137bb1f6305c99e42758df03c4784f85204563dc131c25
+  nuchabal: 34d4b4f890a517ae91b430383c94a85f4ca13913525a87d1fd92b88e0aa52870
 
 importers:
 
@@ -6120,7 +6121,7 @@ snapshots:
       '@types/lodash-es': 4.17.12
       ennikkai: 2.3.4
       lodash-es: 4.17.21
-      nuchabal: 3.2.7(@constl/ipa@1.6.2(react-native@0.73.6(@babel/core@7.29.0)(@babel/preset-env@7.24.4(@babel/core@7.29.0))(react@18.2.0)))
+      nuchabal: 3.2.7(patch_hash=34d4b4f890a517ae91b430383c94a85f4ca13913525a87d1fd92b88e0aa52870)(@constl/ipa@1.6.2(react-native@0.73.6(@babel/core@7.29.0)(@babel/preset-env@7.24.4(@babel/core@7.29.0))(react@18.2.0)))
       uuid: 11.1.0
       vue: 3.5.33(typescript@5.9.3)
     transitivePeerDependencies:
@@ -9452,7 +9453,7 @@ snapshots:
     dependencies:
       path-key: 3.1.1
 
-  nuchabal@3.2.7(@constl/ipa@1.6.2(react-native@0.73.6(@babel/core@7.29.0)(@babel/preset-env@7.24.4(@babel/core@7.29.0))(react@18.2.0))):
+  nuchabal@3.2.7(patch_hash=34d4b4f890a517ae91b430383c94a85f4ca13913525a87d1fd92b88e0aa52870)(@constl/ipa@1.6.2(react-native@0.73.6(@babel/core@7.29.0)(@babel/preset-env@7.24.4(@babel/core@7.29.0))(react@18.2.0))):
     dependencies:
       '@constl/ipa': 1.6.2(react-native@0.73.6(@babel/core@7.29.0)(@babel/preset-env@7.24.4(@babel/core@7.29.0))(react@18.2.0))
       '@lassi-js/kili': 0.3.16(@constl/ipa@1.6.2(react-native@0.73.6(@babel/core@7.29.0)(@babel/preset-env@7.24.4(@babel/core@7.29.0))(react@18.2.0)))
