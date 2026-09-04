@@ -1,5 +1,5 @@
 {
-  "fr": {
+  "fra": {
     "principale": {
       "titre": "Constellation",
       "sousTitre": "Le réseau distribué pour les données scientifiques",
@@ -220,6 +220,12 @@
           }
         }
       }
+    }
+  },
+  "ไทย": {
+    "principale": {
+      "titre": "กลุ่มดาว",
+      "sousTitre": "เครือข่ายแบบกระจายสำหรับข้อมูลทางวิทยาศาสตร์"
     }
   }
 }
