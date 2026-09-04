@@ -1,0 +1,6 @@
+allowBuilds:
+  '@ipshipyard/node-datachannel': true
+  '@parcel/watcher': false
+  classic-level: true
+  esbuild: true
+  iso-constants@https://codeload.github.com/inverted-capital/iso-constants/tar.gz/2af6fdfb2cacaa03ebd58543703918783e62649f: true
