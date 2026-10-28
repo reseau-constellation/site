@@ -149,13 +149,12 @@ import {
   obtTousLesTéléchargements,
   plateforme,
 } from '@/utils/téléchargements';
-import { கிளிமூக்கை_பயன்படுத்து } from '@lassi-js/kilimukku-vue';
 import { ouvrirLien } from '@/utils/utils';
+import { மொழியாக்கத்தைப்_பயன்படுத்து } from '@lassi-js/kilimukku-vue';
 
 const { mdAndUp } = useDisplay();
 
-const { மொழியாக்கம்_பயன்படுத்து } = கிளிமூக்கை_பயன்படுத்து();
-const { $மொ: t } = மொழியாக்கம்_பயன்படுத்து({});
+const { $மொ: t } = மொழியாக்கத்தைப்_பயன்படுத்து({});
 
 const version = ref<string>();
 const se = ref<string>();

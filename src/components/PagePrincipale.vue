@@ -256,7 +256,7 @@ import { computed, onMounted, ref } from 'vue';
 import { useDisplay, useRtl } from 'vuetify';
 import { useRouter } from 'vue-router';
 
-import { கிளிமூக்கை_பயன்படுத்து, மொழிகளைப்_பயன்படுத்து } from '@lassi-js/kilimukku-vue';
+import { மொழிகளைப்_பயன்படுத்து, மொழியாக்கத்தைப்_பயன்படுத்து } from '@lassi-js/kilimukku-vue';
 
 import CarteFonctionalite from './CarteFonctionalité.vue';
 import TitreSection from './TitreSection.vue';
@@ -277,8 +277,7 @@ const { mdAndUp } = useDisplay();
 const { isRtl } = useRtl();
 const routeur = useRouter();
 
-const { மொழியாக்கம்_பயன்படுத்து } = கிளிமூக்கை_பயன்படுத்து();
-const { $மொ: t } = மொழியாக்கம்_பயன்படுத்து({});
+const { $மொ: t } = மொழியாக்கத்தைப்_பயன்படுத்து({});
 const { மொழி } = மொழிகளைப்_பயன்படுத்து();
 
 const lienAppli = computed(() => {
