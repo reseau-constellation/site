@@ -13,8 +13,8 @@ importers:
   .:
     dependencies:
       '@lassi-js/kilimukku-vue':
-        specifier: ^1.1.11
-        version: 1.1.11(patch_hash=2c2a3228a21b3ace98137bb1f6305c99e42758df03c4784f85204563dc131c25)(@constl/ipa@1.6.24(debug@4.4.3(supports-color@10.2.2))(react-native@0.88.0(@babel/core@7.29.7(supports-color@10.2.2))(react@19.3.1)(supports-color@10.2.2))(supports-color@10.2.2))(debug@4.4.3(supports-color@10.2.2))(react-native@0.88.0(@babel/core@7.29.7(supports-color@10.2.2))(react@19.3.1)(supports-color@10.2.2))(supports-color@10.2.2)(vue@3.5.44(typescript@5.9.3))
+        specifier: ^2.0.0
+        version: 2.0.0(patch_hash=2c2a3228a21b3ace98137bb1f6305c99e42758df03c4784f85204563dc131c25)(@constl/ipa@1.6.24(debug@4.4.3(supports-color@10.2.2))(react-native@0.88.0(@babel/core@7.29.7(supports-color@10.2.2))(react@19.3.1)(supports-color@10.2.2))(supports-color@10.2.2))(debug@4.4.3(supports-color@10.2.2))(react-native@0.88.0(@babel/core@7.29.7(supports-color@10.2.2))(react@19.3.1)(supports-color@10.2.2))(supports-color@10.2.2)(vue@3.5.44(typescript@5.9.3))
       '@mdi/font':
         specifier: 7.4.47
         version: 7.4.47
@@ -624,8 +624,8 @@ packages:
   '@lassi-js/kili@0.4.5':
     resolution: {integrity: sha512-wCAaHHhqTCBXI1L3aaDYl1s4tIm9nmR2A+8NhMSlr+0zk4dSaEvqH0OjK1tm64vLAB3W9uIMIOoK+WYBXKXAYg==}
 
-  '@lassi-js/kilimukku-vue@1.1.11':
-    resolution: {integrity: sha512-xNfFa/DneM2aD+kIjyQDih5zpuvRs8ja/hyLQ9dznVAQlF5+JvlF9eCG5qGoCKTsF3w56BCUjxqjooF/MRH3Tw==}
+  '@lassi-js/kilimukku-vue@2.0.0':
+    resolution: {integrity: sha512-PIWa2/smkCnISHTNgp7M3DKsU6V6hH0eZNqyN2Mkg1UMxz34YPDtDestOUg98LWb5ktEYcvp6K4HmfZ9xlhIkw==}
     peerDependencies:
       vue: ^3.4.19
 
@@ -5383,7 +5383,7 @@ snapshots:
       '@orbitdb/core': 2.5.0
       deepcopy: 2.1.0
 
-  '@lassi-js/kilimukku-vue@1.1.11(patch_hash=2c2a3228a21b3ace98137bb1f6305c99e42758df03c4784f85204563dc131c25)(@constl/ipa@1.6.24(debug@4.4.3(supports-color@10.2.2))(react-native@0.88.0(@babel/core@7.29.7(supports-color@10.2.2))(react@19.3.1)(supports-color@10.2.2))(supports-color@10.2.2))(debug@4.4.3(supports-color@10.2.2))(react-native@0.88.0(@babel/core@7.29.7(supports-color@10.2.2))(react@19.3.1)(supports-color@10.2.2))(supports-color@10.2.2)(vue@3.5.44(typescript@5.9.3))':
+  '@lassi-js/kilimukku-vue@2.0.0(patch_hash=2c2a3228a21b3ace98137bb1f6305c99e42758df03c4784f85204563dc131c25)(@constl/ipa@1.6.24(debug@4.4.3(supports-color@10.2.2))(react-native@0.88.0(@babel/core@7.29.7(supports-color@10.2.2))(react@19.3.1)(supports-color@10.2.2))(supports-color@10.2.2))(debug@4.4.3(supports-color@10.2.2))(react-native@0.88.0(@babel/core@7.29.7(supports-color@10.2.2))(react@19.3.1)(supports-color@10.2.2))(supports-color@10.2.2)(vue@3.5.44(typescript@5.9.3))':
     dependencies:
       '@chriscdn/promise-semaphore': 2.0.12
       '@lassi-js/kili': 0.4.5
