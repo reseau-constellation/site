@@ -42,7 +42,7 @@ importers:
     devDependencies:
       '@babel/types':
         specifier: ^8.0.8
-        version: 8.0.8
+        version: 8.0.10
       '@types/node':
         specifier: ^26.6.5
         version: 26.6.5
@@ -257,8 +257,8 @@ packages:
     resolution: {integrity: sha512-WCsemW40Cpc6gouC1SrY6PBaZ+oLRlEVY9XBvZBI7il/HyUrb2nJ505wE1MHEFyDZNnrWDEuy4jL50WVHfTTSQ==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/types@8.0.8':
-    resolution: {integrity: sha512-iXSSZAKQWmaeAwGtFw10v9fg5hUiUs0L+w+Z2K11kym3pDNK+SF0VcAQPsEFvWcTSZ7LMgClMXDBvTbH0IlICg==}
+  '@babel/types@8.0.10':
+    resolution: {integrity: sha512-KV8Y+teoRsmXeEPS4sCJY1kwV+hcPzHP1qQqgCxrjKOehLdBaxpsFBfoJ8MXWFV80y6Jw56+TM95wR0Per8dYw==}
     engines: {node: ^22.18.0 || >=24.11.0}
 
   '@capsizecss/unpack@4.0.1':
@@ -1669,9 +1669,6 @@ packages:
     resolution: {integrity: sha512-cJmb8xEnVLT+R6fBS5sn/EFJiX7tUnDaPtOPZ1vFbOJtd0fnZn/Ky2XGgsvvoeliWeH7mL3TWSX5zXXGSQV6gQ==}
     engines: {node: '>= 10.0.0'}
     deprecated: The AWS SDK for JavaScript (v2) has reached end-of-support, and no longer receives updates. Please migrate your code to use AWS SDK for JavaScript (v3). More info https://a.co/cUPnyil
-
-  axios@1.20.0:
-    resolution: {integrity: sha512-r8aOh8j9cGKpgQAqpzrUHnSIc6a59Y3Xf/cv8sy1DrHCkZHzQGEuoq1tARk6qSyDdtQGSDgpb9kFlruzPvrgwg==}
 
   axios@1.21.0:
     resolution: {integrity: sha512-YCzXMB53Q9PZBsh7yN7wtapit4WepwcHS2fP8QhGsBxSz5YtgYobV7GGlWlAJi+RxfU77GQTQi2DSLUma42EYA==}
@@ -4484,7 +4481,7 @@ snapshots:
       '@babel/helper-string-parser': 7.29.11
       '@babel/helper-validator-identifier': 7.29.7
 
-  '@babel/types@8.0.8':
+  '@babel/types@8.0.10':
     dependencies:
       '@babel/helper-string-parser': 8.0.8
       '@babel/helper-validator-identifier': 8.0.6
@@ -4661,7 +4658,7 @@ snapshots:
       ajv: 8.20.0
       any-signal: 4.2.0
       approx-string-match: 2.0.1
-      axios: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
+      axios: 1.21.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
       blockstore-fs: 2.0.5
       blockstore-idb: 2.0.4
       browser-fs-access: 0.37.0
@@ -7217,7 +7214,7 @@ snapshots:
     dependencies:
       '@peculiar/x509': 1.14.3
       asn1js: 3.1.0
-      axios: 1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
+      axios: 1.21.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2)
       debug: 4.4.3(supports-color@10.2.2)
       node-forge: 1.4.1
     transitivePeerDependencies:
@@ -7304,16 +7301,6 @@ snapshots:
       util: 0.12.5
       uuid: 8.0.0
       xml2js: 0.6.2
-
-  axios@1.20.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2):
-    dependencies:
-      follow-redirects: 1.16.2(debug@4.4.3(supports-color@10.2.2))
-      form-data: 4.0.6
-      https-proxy-agent: 5.0.1(supports-color@10.2.2)
-      proxy-from-env: 2.1.0
-    transitivePeerDependencies:
-      - debug
-      - supports-color
 
   axios@1.21.0(debug@4.4.3(supports-color@10.2.2))(supports-color@10.2.2):
     dependencies:
